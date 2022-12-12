@@ -1,3 +1,12 @@
+body {
+  background: #121212;
+  color: white;
+}
+
+section li, footer li {
+  list-style-type: none;
+}
+
 #imgback {
   background-image: url("../img/ricordi-testo.jpg");
   background-position: center;
@@ -7,7 +16,7 @@
 }
 
 .bi {
-  font-size: xx-large;
+  font-size: large;
 }
 
 h2 {
@@ -15,4 +24,17 @@ h2 {
   font-size: small;
   font-family: "Inter", sans-serif;
   padding: 4%;
+}
+
+.icone .bi-play-circle-fill {
+  font-size: xx-large;
+  padding: 0.5em;
+}
+
+#heartCircle .bi {
+  background: #acfbb7;
+  border-radius: 50%;
+  color: #121212;
+  padding: 0.4em;
+  border: 2px solid white;
 }/*# sourceMappingURL=sass.css.map */

@@ -20,10 +20,10 @@
 
   <div class="container-fluid text-white p-0" id="imgback">
     <!-- <nav> </nav> -->
-    <div class="container d-flex flex-column justify-content-between" id="copertina">
+    <div class="container d-flex flex-column justify-content-start position-relative" id="copertina">
       <!-- aumentare size cerchio -->
-      <i class="bi bi-arrow-left-circle"></i>
-      <h1 class="display-1 fw-bold"> Pinguini Tattici Nucleari</h1>
+      <i class="bi bi-arrow-left-circle align-self-start "></i>
+      <h1 class="display-1 fw-bold position-absolute top-100"> Pinguini Tattici Nucleari</h1>
     </div>
   </div>
     <div id="ascoltatori" class="container-fluid p-0">
@@ -36,16 +36,21 @@
           <i class="bi bi-three-dots-vertical text-white"></i>
         </div>
         <div class="icone col-6 d-flex align-items-center justify-content-end">
-          <i class="bi bi-shuffle text-success px-2"></i>
-          <i class="bi bi-play-circle-fill text-success fs-2 px-4"></i>
+          <i class="bi bi-shuffle text-success "></i>
+          <i class="bi bi-play-circle-fill text-success fs-2"></i>
         </div>
 
       </nav>
 
     </div>
 
-    <div class="container row">
-      <img class="col-2 rounded-circle" src="../page-artista/img/ricordi-testo.jpg">
+    <div class="container row position-relative">
+      
+      <img class="col-2 rounded-circle " src="../page-artista/img/ricordi-testo.jpg">
+
+      <div class="position-absolute bottom-0  " id="heartCircle">
+        <i class="bi bi-heart-fill"></i>
+    </div>
       <div class="container col-10" id="copertina2">
         <div class="container-fluid" id="brani">
           <h3>Brani che ti piacciono</h3>
