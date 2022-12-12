@@ -1,1 +1,18 @@
-/*# sourceMappingURL=search.css.map */
+body {
+  color: white;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.search-cat img {
+  border-radius: 5px;
+}
+
+.btn-search {
+  background-color: rgb(71, 71, 71);
+  opacity: 0.6;
+  border: none;
+  border-radius: 2px;
+  padding: 7px 0;
+  font-size: 1.2em;
+}/*# sourceMappingURL=search.css.map */
