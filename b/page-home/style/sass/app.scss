@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import "header";
+@import "main";
+@import"card";
+@import "player";
+@import "footer";
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}

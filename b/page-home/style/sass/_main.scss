@@ -1,0 +1,37 @@
+main{
+    #sectio-lable{
+        padding: 10px 20px;
+    }
+
+    #ultimiascolti{
+        padding: 10px 10px;
+        .cont-playlist{
+            padding: 10px 5px;
+        }
+
+        .playlist-title{
+            padding-left: 5px;
+        }
+    }
+
+    #playlist{
+        padding: 0px 10px 10px 13px;
+        background-color: #242424;
+
+        .cont-img{
+            padding: 10px 0px 0px 10px;
+            background: linear-gradient(309deg, rgba(36,36,36,1) 45%, rgba(102,58,55,1) 73%, rgba(144,66,62,1) 97%);
+            border-top-left-radius: 10px;
+        }
+
+        .bottone{
+            font-size: 20px;
+            background: black;
+            border: none;
+            border-radius: 50%;
+            i{
+                color: white;
+            }
+        }
+    }
+}
