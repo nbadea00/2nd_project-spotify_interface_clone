@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">    
+        <style>
+            #copertina-album{
+                background-color: black;
+                width: 200px;
+                height: 200px;
+            }
+            body{
+                color: white;
+            }
+            #container{
+                background-image: linear-gradient(rgba(231, 198, 51, 0.703) ,black);
+            }
+        </style>
+</head>
+
+<body>
+    <!-- barra superiore icone -->
+    <div class="container" id="container">
+            <div class="row">
+                <div class="col-9">
+                icone
+                </div>
+                <div class="col-3 text-end">
+                   icone
+                </div>
+            </div>
+    <!--fine barra superiore icone -->
+    <!-- blocco album descrizione e immagine-->
+            <div class="d-flex">
+                <div class="col-2"><-</div>
+                <div id="copertina-album" class="col-8"></div>
+            </div>
+   
+            <div class="col"><h3>TITOLO ALBUM</h3></div>
+            <div class="col d-flex"><img src="#" alt="#"><p>nome artista</p></div>
+            <div class="col"><p>album . data</p></div>
+            <div class="row">
+                <div class="col-6">like opzioni</div>
+                <div class="col-6 text-end">shuffle play</div>
+            </div>
+    <!--fine blocco album descrizione e immagine-->
+    <!-- blocco suggerimento brani artista -->
+    <section>
+            <div class="row">
+                <div class="col-6"><p>Titolo brano</p><p>artista</p></div>
+                <div class="col-6 text-end">...</div>
+            </div>
+    </section>        
+    <!-- fine blocco suggerimento brani artista -->
+    <!-- barra nav play list -->
+  <!--Aside-->
+  <aside class="player container position-sticky">
+    <section class="container border border-dark rounded">
+        <div class="row">
+            <img src="#" alt="#" class="col-2">
+            <h4 class="col-6 m-0">Titolo provisorio</h4>
+            <ul class="col-4 row g-0">
+                <li class="col-4"><i class="bi bi-heart"></i></li>
+                <li class="col-4"><i class="bi bi-pc-display"></i></li>
+                <li class="col-4"><i class="bi bi-play-fill"></i></li>
+            </ul>
+        </div>
+    </section>
+</aside>
+
+<!--Footer-->
+<footer class="container-fluid position-sticky bottom-0">
+    <nav>
+        <ul class="row text-center p-0">
+            <li class="col-4"><i class="bi bi-house-fill"></i><p>Home</p></li>
+            <li class="col-4"><i class="bi bi-search"></i><p>Cerca</p></li>
+            <li class="col-4"><i class="bi bi-book"></i><p>La tua libreria</p></li>
+        </ul>
+    </nav>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
