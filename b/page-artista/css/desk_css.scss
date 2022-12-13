@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import "var";
+@import "placeholder";
+@import "header";
+@import "main";
+body{
+    background: $bg-default-color;
+    color: $tx-white;
+    a{
+        text-decoration: none;
+        color:$tx-white;
+    }
+}
+
+#topBar{
+    background-color:$bg-default-color;
+    color: $tx-white;
+    display: flex;
+    justify-content: right;
+    i{
+        padding-left: 5px;
+        font-size: smaller;
+    }
+  
+}

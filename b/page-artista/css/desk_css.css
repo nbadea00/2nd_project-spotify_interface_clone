@@ -41,43 +41,21 @@ main #bg-artists {
 }
 
 body {
+  background: #121212;
   color: white;
-  font-family: "Inter", sans-serif;
 }
-body section li, body footer li {
-  list-style-type: none;
+body a {
+  text-decoration: none;
+  color: white;
 }
 
-.btn {
+#topBar {
+  background-color: #121212;
+  color: white;
+  display: flex;
+  justify-content: right;
+}
+#topBar i {
+  padding-left: 5px;
   font-size: smaller;
-  border: 0.5px inset #3b3b3b;
-  margin: 4px;
-}
-
-.bi-shuffle {
-  color: #696e68;
-}
-
-#profile {
-  position: relative;
-}
-#profile img {
-  border-radius: 50%;
-  max-width: 20%;
-}
-#profile #heartCircle .bi {
-  background: #acfbb7;
-  border-radius: 50%;
-  color: #121212;
-  padding: 0.4em;
-  border: 2px solid white;
-  position: absolute;
-  top: 30%;
-  left: 10%;
-  z-index: 1;
-}
-
-#popolari {
-  background-color: black;
-  color: white;
-}/*# sourceMappingURL=sass.css.map */
+}/*# sourceMappingURL=desk_css.css.map */
