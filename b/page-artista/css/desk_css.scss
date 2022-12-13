@@ -6,6 +6,8 @@
 body{
     background: $bg-default-color;
     color: $tx-white;
+    height: 100vh;
+  
     a{
         text-decoration: none;
         color:$tx-white;
@@ -22,4 +24,28 @@ body{
         font-size: smaller;
     }
   
+}
+main{
+    background-image: url('../img/yellowcard.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: $tx-white;
+    font-size: normal;
+    overflow: scroll;
+    box-sizing: border-box;
+    
+    span{
+        color:blue;
+        font-size: large;
+    }
+    #profile{
+        img{
+            border-radius: 50%;
+            width: 5%;
+        }
+    }
+}
+.play{
+    
+    background:$bg-default-color;
 }
