@@ -3,6 +3,8 @@
 /*Bg color*/
 /*Border*/
 /*Font*/
+/*bottone play*/
+/*heartCircle*/
 main #ascoltatori p {
   font-size: 14px;
   font-weight: 400;
@@ -41,4 +43,46 @@ main #bg-artists {
 body {
   color: white;
   font-family: "Inter", sans-serif;
+}
+body section li, body footer li {
+  list-style-type: none;
+}
+
+.btn {
+  font-size: smaller;
+  border: 0.5px inset #3b3b3b;
+  margin: 4px;
+}
+
+.bi-shuffle {
+  color: #696e68;
+}
+
+.bi-play-circle-fill {
+  font-size: xx-large;
+  padding: 0.5em;
+  color: #006500;
+}
+
+#profile {
+  position: relative;
+}
+#profile img {
+  border-radius: 50%;
+  width: 20%;
+}
+#profile #heartCircle .bi {
+  background: #acfbb7;
+  border-radius: 50%;
+  color: #121212;
+  padding: 0.4em;
+  border: 2px solid white;
+  position: absolute;
+  left: 10%;
+  z-index: 1;
+}
+
+#popolari {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=sass.css.map */
