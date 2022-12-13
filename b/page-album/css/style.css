@@ -32,6 +32,11 @@ header div h3 {
   color: rgba(9, 128, 9, 0.616);
 }
 
+h1 {
+  font-size: 2.6em;
+  font-weight: 700;
+}
+
 h6 {
   font-size: 1em;
   font-weight: 300;
