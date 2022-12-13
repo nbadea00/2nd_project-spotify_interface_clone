@@ -1,36 +1,47 @@
-main{
-    #sectio-lable{
-        padding: 10px 20px;
+main {
+    #sectio-lable {
+        padding: $default-padding*2 $default-padding*4;
     }
 
-    #ultimiascolti{
-        padding: 10px 10px;
-        .cont-playlist{
-            padding: 10px 5px;
+    #ultimiascolti {
+        padding: $default-padding*2 $default-padding*2;
+
+        .cont-playlist {
+            padding: $default-padding*2 $default-padding;
         }
 
-        .playlist-title{
-            padding-left: 5px;
+        .playlist-title {
+            padding-left: $default-padding*2;
         }
     }
 
-    #playlist{
-        padding: 0px 10px 10px 13px;
-        background-color: #242424;
+    #extended-playlist {
+        
+        .extended-playlist-cont {
+            padding: $default-padding*0 $default-padding*2 $default-padding*2 $default-padding*2.2;
+            background-color: $bg-default-color;
 
-        .cont-img{
-            padding: 10px 0px 0px 10px;
-            background: linear-gradient(309deg, rgba(36,36,36,1) 45%, rgba(102,58,55,1) 73%, rgba(144,66,62,1) 97%);
-            border-top-left-radius: 10px;
-        }
+            .cont-img {
+                padding: $default-padding*2 $default-padding*0 $default-padding*0 $default-padding*2;
+                background: linear-gradient(309deg, rgba(36, 36, 36, 1) 45%, rgba(102, 58, 55, 1) 73%, rgba(144, 66, 62, 1) 97%);
+                border-top-left-radius: $br-default*2;
+            }
 
-        .bottone{
-            font-size: 20px;
-            background: black;
-            border: none;
-            border-radius: 50%;
-            i{
-                color: white;
+            &-txt{
+                padding-top: $default-padding*2 ;
+            }
+
+            &-icon {
+                .bottone {
+                    font-size: $fs-default;
+                    background: $bg-color-black;
+                    border: none;
+                    border-radius: $br-percent;
+
+                    i {
+                        color: $tx-white;
+                    }
+                }
             }
         }
     }
