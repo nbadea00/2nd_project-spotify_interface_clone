@@ -1,11 +1,23 @@
 header{
-
-    padding:  $default-padding*4 $default-padding*4;
-
+    grid-area: header;
+    padding:  $default-padding*4 $default-padding*0;
     color: $tx-white;
 
+    .title-sec{
+    }
+
     #opzion{
+        font-size: $fs-icon;
         list-style: none;
         text-align: end;
+
+        #dot{
+            position: relative;
+            height: 0px;
+            width: 0px;
+            right: 12px;
+            top: -15px;
+            @extend %dot;
+        }
     }
 }

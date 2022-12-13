@@ -1,8 +1,16 @@
 footer{
+    grid-area: footer;
     background-color: black;
-    color: white;
+    @extend %text-grey;
 
-    ul{
-        list-style: none;
+    #menu{
+        .menu{
+            list-style: none;
+            &-element{
+                i{
+                   font-size: $fs-icon;
+                }
+            }
+        }
     }
 }
