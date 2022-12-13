@@ -1,5 +1,5 @@
-aside{
-    #player{
+#player-cont{
+    .player{
         background-color: #282828;
 
         ul{
@@ -9,7 +9,7 @@ aside{
         }
 
         div{
-            h4{
+            .player-title{
                 font-size: 16px;
             }
         }
