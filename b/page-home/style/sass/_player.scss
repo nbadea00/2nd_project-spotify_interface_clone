@@ -1,16 +1,71 @@
-#player-cont{
-    .player{
+#player-cont {
+    grid-area: aside;
+
+    position: sticky;
+    bottom: 100px;
+
+    .player {
         background-color: #282828;
-
-        ul{
-            list-style: none;
+        border-radius: $br-default*2;
+        @include ds-xl{
+            min-width: 100%;
             margin: 0px;
-            font-size: 15px;
+            border-radius : 0px;
+            position: fixed;
+            bottom: 0px;
         }
+        div {
+            
+            .player-title {
+                font-size: $fs-default;
+                p{
+                    @extend %text-grey;
+                    margin: 0px;
+                }
+            }
 
-        div{
-            .player-title{
-                font-size: 16px;
+            .player-img{
+                max-width: 80px;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0px;
+                font-size: $fs-icon;
+                padding: 0px;
+                letter-spacing: 5px;
+
+                @include ds-xl{
+                    width: 100%;
+                }
+
+                svg{
+                    width: 80px;
+                    color: $tx-white;
+                }
+                li:first-child {
+                    color: $tx-grey;
+                }
+
+                li{
+                    @extend %text-grey;
+                }
+                li:nth-child(2) i:nth-child(3) {
+                    font-size: $fs-default*1.5;
+                    color: $tx-white;
+                    order: 2;
+                }
+
+                li:nth-child(1){
+                    order: 2;
+                }
+                li:nth-child(2){
+                    order: 3;
+                }
+                li:nth-child(3){
+                    order: 1;
+                }
+
             }
         }
     }

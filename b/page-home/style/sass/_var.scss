@@ -3,9 +3,10 @@ $default-padding : 5px;
 
 /*Text color*/
 $tx-white : white;
+$tx-grey: #8e8e8e;
 
 /*Bg color*/
-$bg-default-color : #242424;
+$bg-default-color : #121212;
 $bg-color-black : black;
 
 /*Border*/
@@ -14,3 +15,5 @@ $br-percent : 50%;
 
 /*Font*/
 $fs-default : 16px;
+$fs-grey: 14px;
+$fs-icon : $fs-default*1.5;

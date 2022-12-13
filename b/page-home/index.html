@@ -16,20 +16,21 @@
 
 <body>
     <!--Header-->
-    <header class="container-fluid">
+    <header class="container">
         <div class="row justify-content-between">
-            <h2 class="col-5">Buonasera</h2>
+            <h2 class="col-5 title-sec">Buonasera</h2>
 
-            <ul id="opzion" class="col-5 m-0 d-flex align-items-center">
-                <li class="col-4"><i class="bi bi-bell"></i></li>
-                <li class="col-4"><i class="bi bi-clock-history"></i></li>
-                <li class="col-4"><i class="bi bi-gear"></i></li>
+            <ul id="opzion" class="col-5 m-0 d-flex align-items-center justify-content-end gap-4">
+                <li class=" d-flex justify-content-end"><i id="dot" class="bi bi-dot"></i><i
+                        class="bi bi-bell text-end"></i></li>
+                <li class=""><i class="bi bi-clock-history"></i></li>
+                <li class=""><i class="bi bi-gear"></i></li>
             </ul>
         </div>
     </header>
 
     <!--Main-->
-    <main class="container-fluid">
+    <main class="container">
         <div id="sectio-lable" class="row">
             <p class="col-3 m-0">
                 Musica
@@ -39,103 +40,141 @@
             </p>
         </div>
 
-        <section id="ultimiascolti" class="row">
+        <section id="ultimiascolti" class="container">
 
-            <div class="col-6 cont-playlist">
-                <div class="d-flex playlist">
-                    <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
-                    <h5 class="col-6 playlist-title d-flex align-items-center overflow-hidden playlist-title">Titolo Playlist</h5>
+            <div class="row">
+                <div class="col-6 col-xl-4 cont-playlist">
+                    <div class="d-flex playlist align-items-center">
+                        <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
+                        <div class="col-5 d-flex align-items-center">
+                            <h5 class="overflow-hidden playlist-title">
+                                Titolo Playlist
+                            </h5>
+                        </div>
+                        <i class="col-1 bi bi-three-dots info"></i>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-6 cont-playlist">
-                <div class="d-flex playlist">
-                    <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
-                    <h5 class="col-6 playlist-title d-flex align-items-center overflow-hidden playlist-title">Titolo Playlist</h5>
+                <div class="col-6 col-xl-4 cont-playlist">
+                    <div class="d-flex playlist align-items-center">
+                        <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
+                        <div class="col-5 d-flex align-items-center">
+                            <h5 class="overflow-hidden playlist-title">
+                                Titolo Playlist
+                            </h5>
+                        </div>
+                        <i class="col-1 bi bi-three-dots info"></i>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-6 cont-playlist">
-                <div class="d-flex playlist">
-                    <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
-                    <h5 class="col-6 playlist-title d-flex align-items-center overflow-hidden playlist-title">Titolo Playlist</h5>
+                <div class="col-6 col-xl-4 cont-playlist">
+                    <div class="d-flex playlist align-items-center">
+                        <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
+                        <div class="col-5 d-flex align-items-center">
+                            <h5 class="overflow-hidden playlist-title">
+                                Titolo Playlist
+                            </h5>
+                        </div>
+                        <i class="col-1 bi bi-three-dots info"></i>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-6 cont-playlist">
-                <div class="d-flex playlist">
-                    <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
-                    <h5 class="col-6 playlist-title d-flex align-items-center overflow-hidden playlist-title">Titolo Playlist</h5>
+                <div class="col-6 col-xl-4 cont-playlist">
+                    <div class="d-flex playlist align-items-center">
+                        <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
+                        <div class="col-5 d-flex align-items-center">
+                            <h5 class="overflow-hidden playlist-title">
+                                Titolo Playlist
+                            </h5>
+                        </div>
+                        <i class="col-1 bi bi-three-dots info"></i>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-6 cont-playlist">
-                <div class="d-flex playlist">
-                    <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
-                    <h5 class="col-6 playlist-title d-flex align-items-center overflow-hidden playlist-title">Titolo Playlist</h5>
+                <div class="col-6 col-xl-4 cont-playlist">
+                    <div class="d-flex playlist align-items-center">
+                        <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
+                        <div class="col-5 d-flex align-items-center">
+                            <h5 class="overflow-hidden playlist-title">
+                                Titolo Playlist
+                            </h5>
+                        </div>
+                        <i class="col-1 bi bi-three-dots info"></i>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-6 cont-playlist">
-                <div class="d-flex playlist">
-                    <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
-                    <h5 class="col-6 playlist-title d-flex align-items-center overflow-hidden playlist-title">Titolo Playlist</h5>
+                <div class="col-6 col-xl-4 cont-playlist">
+                    <div class="d-flex playlist align-items-center">
+                        <img src="./assets/img/s.jpg" class="img-fluid col-6 rounded-start playlist-img" alt="">
+                        <div class="col-5 d-flex align-items-center">
+                            <h5 class="overflow-hidden playlist-title">
+                                Titolo Playlist
+                            </h5>
+                        </div>
+                        <i class="col-1 bi bi-three-dots info"></i>
+                    </div>
                 </div>
-            </div>
 
         </section>
 
-        <section id="extended-playlist" class="container p-0">
-            <div class="container rounded-3 mb-3 extended-playlist-cont">
-                <div class="row">
-                    <div class="col-6 cont-img">
-                        <img class="img-fluid extended-playlist-cont-img" src="./assets/img/s.jpg" alt="">
-                    </div>
-                    <div class="col-6 extended-playlist-cont-txt">
-                        <p class="m-0">Playlist</p>
-                        <p class="m-0 extended-playlist-cont-title">Titolo Playlist</p>
+        <section id="extended-playlist" class="container d-xl-none p-0">
+
+            <div class="row">
+
+                <div class="col-12 p-2">
+                    <div class="container rounded-3 mb-3 extended-playlist-cont">
+                        <div class="row">
+                            <div class="col-6 cont-img">
+                                <img class="img-fluid extended-playlist-cont-img" src="./assets/img/s.jpg" alt="">
+                            </div>
+                            <div class="col-6 extended-playlist-cont-txt">
+                                <p class="m-0">Playlist</p>
+                                <p class="m-0 extended-playlist-cont-title">Titolo Playlist</p>
+                            </div>
+                        </div>
+
+                        <div class="row extended-playlist-cont-icon">
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="bi bi-heart col-3"></i>
+                                <i class="bi bi-three-dots-vertical col-3"></i>
+                            </div>
+                            <div class="col-6 d-flex justify-content-end align-items-center">
+                                <p class="col-6 m-0">
+                                    16 Barni
+                                </p>
+                                <button type="button" class="bottone"><i class="bi bi-play-fill"></i></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="row extended-playlist-cont-icon">
-                    <div class="col-6 d-flex align-items-center">
-                        <i class="bi bi-heart col-3"></i>
-                        <i class="bi bi-three-dots-vertical col-3"></i>
-                    </div>
-                    <div class="col-6 d-flex justify-content-end align-items-center">
-                        <p class="col-8 m-0">
-                            16 Barni
-                        </p>
-                        <button type="button" class="bottone"><i class="bi bi-play-fill"></i></button>
+
+                <div class="col-12 p-2">
+                    <div class="container rounded-3 mb-3 extended-playlist-cont">
+                        <div class="row">
+                            <div class="col-6 cont-img">
+                                <img class="img-fluid extended-playlist-cont-img" src="./assets/img/s.jpg" alt="">
+                            </div>
+                            <div class="col-6 extended-playlist-cont-txt">
+                                <p class="m-0">Playlist</p>
+                                <p class="m-0 extended-playlist-cont-title">Titolo Playlist</p>
+                            </div>
+                        </div>
+
+                        <div class="row extended-playlist-cont-icon">
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="bi bi-heart col-3"></i>
+                                <i class="bi bi-three-dots-vertical col-3"></i>
+                            </div>
+                            <div class="col-6 d-flex justify-content-end align-items-center">
+                                <p class="col-6 m-0">
+                                    16 Barni
+                                </p>
+                                <button type="button" class="bottone"><i class="bi bi-play-fill"></i></button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-
-            <div class="container rounded-3 mb-3 extended-playlist-cont">
-                <div class="row">
-                    <div class="col-6 cont-img">
-                        <img class="img-fluid extended-playlist-cont-img" src="./assets/img/s.jpg" alt="">
-                    </div>
-                    <div class="col-6 extended-playlist-cont-txt">
-                        <p class="m-0">Playlist</p>
-                        <p class="m-0 extended-playlist-cont-title">Titolo Playlist</p>
-                    </div>
-                </div>
-
-                <div class="row extended-playlist-cont-icon">
-                    <div class="col-6 d-flex align-items-center">
-                        <i class="bi bi-heart col-3"></i>
-                        <i class="bi bi-three-dots-vertical col-3"></i>
-                    </div>
-                    <div class="col-6 d-flex justify-content-end align-items-center">
-                        <p class="col-8 m-0">
-                            16 Barni
-                        </p>
-                        <button type="button" class="bottone"><i class="bi bi-play-fill"></i></button>
-                    </div>
-                </div>
-            </div>
 
         </section>
 
@@ -143,15 +182,34 @@
     </main>
 
     <!--Aside-->
-    <aside id="player-cont" class="container position-sticky">
-        <section class="container border border-dark rounded player">
-            <div class="row p-1 align-items-center">
-                <img src="./assets/img/s.jpg" alt="#" class="col-3 img-fluid p-2 rounded-circle player-img">
-                <h4 class="col-5 m-0 overflow-hidden player-title">Titolo provisorio</h4>
-                <ul class="col-4 row align-items-center g-0 player-icon">
-                    <li class="col-4"><i class="bi bi-pc-display"></i></li>
-                    <li class="col-4"><i class="bi bi-heart"></i></li>
-                    <li class="col-4"><i class="bi bi-play-fill"></i></li>
+    <aside id="player-cont" class="container-fluid position-sticky p-0">
+        <section class="container border border-dark player">
+            <div class="d-flex align-items-center">
+                <img src="./assets/img/s.jpg" alt="#" class="img-fluid p-2 rounded-circle player-img">
+
+                <h4 class="col-5 col-xl-auto m-0 player-title">Titolo provisorio <p>Autore</p></h4>
+
+                <ul class="d-flex align-items-center justify-content-end justify-content-xl-start g-0 player-icon">
+                    <li class="col-4 text-end">
+                        <i class="bi bi-heart"></i>
+                    </li>
+                    <li class="offset-xl-3 col-4 col-xl-2 d-flex align-items-center justify-content-between">
+                        <i class="bi bi-shuffle d-none d-xl-block"></i>
+                        <i class="bi bi-skip-start-fill d-none d-xl-block"></i>
+                        <i class="bi bi-play-fill"></i>
+                        <i class="bi bi-skip-end-fill d-none d-xl-block"></i>
+                        <i class="bi bi-repeat d-none d-xl-block"></i>
+                    </li>
+                    <li class="offset-xl-3 col-4 d-flex align-items-center justify-content-end">
+                        <i class="bi bi-mic d-none d-xl-block"></i>
+                        <i class="bi bi-hdd-stack d-none d-xl-block"></i>
+                        <i class="bi bi-pc-display"></i>
+                        <i class="bi bi-volume-up d-none d-xl-block"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-bar-down d-none d-xl-block" viewBox="0 0 16 7">
+                            <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8"/>
+                          </svg>
+                        <i class="bi bi-arrows-angle-expand d-none d-xl-block"></i>
+                    </li>
                 </ul>
             </div>
         </section>

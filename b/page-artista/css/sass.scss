@@ -23,15 +23,13 @@ body{
     color: $tx-grey; //inserire hover con JS
 }
 
-.bi-play-circle-fill{
-    font-size: xx-large;
-     padding:0.5em;
-     color: $bg-button;
-  }
+
+     
+  
 #profile{
     position: relative;
     img{border-radius: 50%;
-        width:20% ;
+       max-width:20% ;
         
     }
     #heartCircle
@@ -42,6 +40,7 @@ body{
     padding: 0.40em;
     border:2px solid white;
     position: absolute;
+    top:30%;
     left: 10%;
     z-index:1;
 
