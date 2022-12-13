@@ -43,6 +43,7 @@ main #bg-artists {
 body {
   background: #121212;
   color: white;
+  height: 100vh;
 }
 body a {
   text-decoration: none;
@@ -58,4 +59,26 @@ body a {
 #topBar i {
   padding-left: 5px;
   font-size: smaller;
+}
+
+main {
+  background-image: url("../img/yellowcard.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  font-size: normal;
+  overflow: scroll;
+  box-sizing: border-box;
+}
+main span {
+  color: blue;
+  font-size: large;
+}
+main #profile img {
+  border-radius: 50%;
+  width: 5%;
+}
+
+.play {
+  background: #121212;
 }/*# sourceMappingURL=desk_css.css.map */
