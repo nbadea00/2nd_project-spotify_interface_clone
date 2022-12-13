@@ -1,0 +1,12 @@
+main{
+    #ascoltatori{
+        padding: $default-padding*2;
+        p{  
+            padding: 15px 15px;
+            @extend %text-grey;
+        }
+    }
+    #bg-artists{
+        background: linear-gradient(0deg,red, yellow);
+    }
+}
