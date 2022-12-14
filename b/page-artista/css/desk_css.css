@@ -100,9 +100,6 @@ main #profile img {
   border-radius: 50%;
   width: 5%;
 }
-main button {
-  padding: 0;
-}
 
 .play {
   background: #121212;
