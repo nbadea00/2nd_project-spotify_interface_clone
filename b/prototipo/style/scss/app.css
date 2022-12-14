@@ -11,7 +11,7 @@ header .playlist-container-option div .box-icona-verde, header .playlist-contain
 
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 /* Track */
@@ -137,11 +137,6 @@ header .playlist-container .playlist-container-list {
   overflow: auto;
 }
 
-main {
-  grid-area: main;
-  order: 1;
-}
-
 aside {
   grid-area: aside;
   color: white;
@@ -223,8 +218,8 @@ aside .player-img {
 aside .player-title {
   display: flex;
   align-items: center;
-  padding-left: 15px;
-  font-size: 16px;
+  padding-left: 0px;
+  font-size: 14px;
   overflow: hidden;
   white-space: nowrap;
 }
