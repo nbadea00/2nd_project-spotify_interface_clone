@@ -21,6 +21,64 @@ main #bg-artists {
   background: linear-gradient(0deg, red, yellow);
 }
 
+/*header*/
+header #copertina {
+  background-image: url("../img/ricordi-testo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding-top: 30px;
+}
+header #copertina svg {
+  width: 30px;
+}
+header #copertina svg path:first-child {
+  color: white;
+}
+header #copertina svg path:last-child {
+  color: #696e68;
+}
+
+.desk-arrow-l {
+  background-color: #413818;
+  font-size: 1.2em;
+  padding: 1px 4px 1px 2px;
+  border-radius: 25px;
+  opacity: 0.5;
+}
+.desk-arrow-l:hover {
+  opacity: 1;
+}
+
+.desk-arrow-r {
+  background-color: #413818;
+  font-size: 1.2em;
+  padding: 1px 2px 1px 4px;
+  border-radius: 25px;
+  opacity: 0.5;
+}
+.desk-arrow-r:hover {
+  opacity: 1;
+}
+
+#pop-up {
+  padding: 1px;
+  border: none;
+  background-color: #423918;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.6em;
+  font-weight: 500;
+}
+#pop-up img {
+  width: 25px;
+}
+#pop-up i {
+  font-size: 0.9em;
+  text-align: center;
+}
+
 main {
   color: white;
   font-size: normal;
@@ -53,7 +111,7 @@ main .background #pop-up i {
   text-align: center;
 }
 main span {
-  color: blue;
+  color: #44abf6;
   font-size: large;
 }
 main #profile img {
@@ -63,4 +121,16 @@ main #profile img {
 
 .play {
   background: #121212;
+}
+
+.prova {
+  width: 50px;
+}
+
+.triangolo {
+  color: green;
+  width: 40px;
+  position: relative;
+  left: 51px;
+  bottom: 5px;
 }/*# sourceMappingURL=desk_css.css.map */

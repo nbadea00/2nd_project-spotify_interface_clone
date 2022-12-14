@@ -30,6 +30,45 @@ header #copertina svg path:last-child {
   color: #696e68;
 }
 
+.desk-arrow-l {
+  background-color: #413818;
+  font-size: 1.2em;
+  padding: 1px 4px 1px 2px;
+  border-radius: 25px;
+  opacity: 0.5;
+}
+.desk-arrow-l:hover {
+  opacity: 1;
+}
+
+.desk-arrow-r {
+  background-color: #413818;
+  font-size: 1.2em;
+  padding: 1px 2px 1px 4px;
+  border-radius: 25px;
+  opacity: 0.5;
+}
+.desk-arrow-r:hover {
+  opacity: 1;
+}
+
+#pop-up {
+  padding: 1px;
+  border: none;
+  background-color: #423918;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.6em;
+  font-weight: 500;
+}
+#pop-up img {
+  width: 25px;
+}
+#pop-up i {
+  font-size: 0.9em;
+  text-align: center;
+}
+
 main #ascoltatori {
   padding: 10px;
 }
