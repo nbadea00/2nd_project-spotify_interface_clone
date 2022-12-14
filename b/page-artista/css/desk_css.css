@@ -22,15 +22,35 @@ main #bg-artists {
 }
 
 main {
-  overflow: hidden;
   color: white;
   font-size: normal;
   box-sizing: border-box;
 }
 main .background {
-  background-color: aqua;
-  background-repeat: no-repeat;
+  background-image: url("../img/yellowcard.jpeg");
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+main .background p {
+  font-size: 14px;
+}
+main .background #pop-up {
+  padding: 1px;
+  border: none;
+  background-color: #423918;
+  border-radius: 20px;
+  color: white;
+  font-size: 0.6em;
+  font-weight: 500;
+}
+main .background #pop-up img {
+  width: 25px;
+}
+main .background #pop-up i {
+  font-size: 0.9em;
+  text-align: center;
 }
 main span {
   color: blue;

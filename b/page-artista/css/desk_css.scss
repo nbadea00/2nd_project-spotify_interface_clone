@@ -6,12 +6,35 @@
 
 main{
 .background{
-    //background-image: url('../img/yellowcard.jpeg');
+    background-image: url('../img/yellowcard.jpeg');
+ background-position: center;
+ background-repeat: no-repeat;
+   background-size:cover;
+   height: 250px;
+   p{
+    font-size: $fs-grey;
+   }
+   #pop-up{
+    padding: 1px;
+    border: none;
+    background-color: #423918;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.6em;
+    font-weight: 500;
+    img{
+        width: 25px;
+    }
+    i{
+        font-size: 0.9em;
+        text-align: center;
+        
+        
+    }
 
-background-color: aqua;
-    background-repeat: no-repeat;
-    background-position: center;
-}   overflow: hidden;
+}
+}   
+
     color: $tx-white;
     font-size: normal;
 
