@@ -137,16 +137,6 @@ header .playlist-container .playlist-container-list {
   overflow: auto;
 }
 
-main {
-  grid-area: main;
-  order: 1;
-}
-@media (min-width: 1200px) {
-  main {
-    overflow-y: auto;
-  }
-}
-
 aside {
   grid-area: aside;
   color: white;
@@ -239,6 +229,7 @@ aside .player-title {
     white-space: unset;
     flex-direction: column;
     align-items: unset;
+    padding-left: 20px;
     font-size: 19.2px;
   }
 }
