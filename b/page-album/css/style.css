@@ -100,6 +100,44 @@ h1 {
   opacity: 0.5;
 }
 
+.triangle2 {
+  margin-right: 0;
+  position: relative;
+}
+
+.triangolo2 {
+  color: white;
+  width: 30px;
+  position: relative;
+  left: 46px;
+  z-index: 2;
+}
+
+.cerchio2 {
+  width: 50px;
+  position: relative;
+  color: rgba(3, 121, 33, 0.8078431373);
+}
+
+.triangle {
+  margin-left: -42px;
+  position: relative;
+}
+
+.triangolo {
+  color: black;
+  width: 30px;
+  position: relative;
+  left: 46px;
+  z-index: 2;
+}
+
+.cerchio {
+  width: 50px;
+  position: relative;
+  color: rgba(38, 253, 92, 0.8078431373);
+}
+
 /*------------------------------------------*/
 h6 {
   font-size: 1em;
