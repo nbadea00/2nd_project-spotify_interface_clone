@@ -10,3 +10,62 @@ main{
         background: linear-gradient(0deg,red, yellow); //cambiare il gradiente con js
     }
 }
+
+@media screen and (min-width: 1200px){
+
+    h5{
+        font-size: 1.1em;
+        font-weight: 700;
+    }
+
+    .track-number{
+        font-size: 1m;
+        font-weight: 400;
+        opacity: 0.5;
+        padding-right: 10px;
+        
+        
+    }
+
+    .track-img{
+        width: 45px;
+        padding-right: 10px;
+    }
+
+    .track-name{
+        font-size: 0.7em;
+        font-weight: 500;
+    }
+
+    .track-views, .track-duration{
+        font-size: 0.6em;
+        font-weight: 400;
+        opacity: 0.5;
+    }
+
+    .track-likes-svg{
+        margin-right: 15px;
+        img{
+        width: 60px;
+        border-radius: 50%;
+        
+    }
+    }
+
+    .track-relative{
+        position: relative;
+        bottom: 120px;
+    }
+
+    .track-likes-number{
+        font-size: 0.7em;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+
+    .track-artist{
+        font-size: 0.7em;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+}
