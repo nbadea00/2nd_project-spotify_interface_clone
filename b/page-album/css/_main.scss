@@ -1,6 +1,10 @@
 h6{
     font-size: 1em;
     font-weight: 300;
+    @media screen and (min-width:1200px) {
+        font-weight: 500;
+        font-size: 0.8em;
+    }
 }
 
 .track-download-icon{
