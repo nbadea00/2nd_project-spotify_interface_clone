@@ -90,8 +90,8 @@ aside {
         &-title {
             display: flex;
             align-items: center;
-            padding-left: $default-padding*3;
-            font-size: $fs-default;
+            padding-left: $default-padding*0;
+            font-size: $fs-grey;
 
             overflow: hidden;
             white-space: nowrap;
