@@ -10,27 +10,27 @@ aside {
     z-index: 1;
     padding: $default-padding*0 $default-padding;
 
-    @include ds-xl{
+    @include ds-xl {
         position: unset;
         padding: $default-padding*0;
     }
 
-    
-    
+
+
     .player {
         background-color: $bg-default-color;
         border-radius: 10px;
         width: 100%;
         padding: $default-padding*1.2 $default-padding*2;
 
-        @include ds-xl{
+        @include ds-xl {
             border-radius: 0px;
         }
 
-        div:first-child{
-            gap:10px;
+        div:first-child {
+            gap: 10px;
 
-            @include ds-xl{
+            @include ds-xl {
                 gap: 0px;
             }
         }
@@ -39,7 +39,8 @@ aside {
             div:nth-child(1) {
                 order: 1;
             }
-            div:nth-child(2){
+
+            div:nth-child(2) {
                 order: 3;
             }
 
@@ -57,7 +58,8 @@ aside {
                     width: 14%;
                     order: 1;
                 }
-                div:nth-child(2){
+
+                div:nth-child(2) {
                     width: 6%;
                     order: 2;
                 }
@@ -80,10 +82,10 @@ aside {
             height: 40px;
             border-radius: 50%;
 
-            @include ds-xl{
+            @include ds-xl {
                 width: 50px;
                 height: 50px;
-                border-radius: 0%; 
+                border-radius: 0%;
             }
         }
 
@@ -96,21 +98,22 @@ aside {
             overflow: hidden;
             white-space: nowrap;
 
-            @include ds-xl{
+            @include ds-xl {
                 overflow: unset;
                 white-space: unset;
                 flex-direction: column;
                 align-items: unset;
+                padding-left: $default-padding*4;
                 font-size: $fs-default*1.2;
             }
-            
+
 
 
             p {
                 font-size: $fs-grey;
                 padding-left: $default-padding;
 
-                @include ds-xl{
+                @include ds-xl {
                     padding: $default-padding*0;
                 }
             }
