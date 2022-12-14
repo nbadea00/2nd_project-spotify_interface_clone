@@ -44,10 +44,30 @@ body {
   background: #121212;
   color: white;
   height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 body a {
   text-decoration: none;
   color: white;
+  line-height: 3em;
+}
+body .bi-plus-square-fill {
+  color: grey;
+  padding: 3px;
+}
+body .bi-heart-fill {
+  background: linear-gradient(127deg, #4E34AB, #788B8B);
+  padding: 3px;
+  font-size: smaller;
+}
+body .bi-bookmark-fill {
+  background: green;
+  color: rgb(11, 211, 11);
+  padding: 3px;
+  font-size: smaller;
 }
 
 #topBar {
@@ -62,13 +82,15 @@ body a {
 }
 
 main {
-  background-image: url("../img/yellowcard.jpeg");
-  background-repeat: no-repeat;
-  background-position: center center;
+  overflow: hidden;
   color: white;
   font-size: normal;
-  overflow: scroll;
   box-sizing: border-box;
+}
+main .background {
+  background-image: url("../img/yellowcard.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 main span {
   color: blue;
@@ -78,7 +100,30 @@ main #profile img {
   border-radius: 50%;
   width: 5%;
 }
+main button {
+  padding: 0;
+}
 
 .play {
   background: #121212;
+}
+
+aside {
+  background-color: #121212;
+  color: white;
+}
+aside .list-group-item {
+  background-color: #121212;
+  border: none;
+  color: white;
+  line-height: 1.2em;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: justify;
+}
+aside p {
+  font-size: small;
+}
+aside p span {
+  font-size: medium;
 }/*# sourceMappingURL=desk_css.css.map */
