@@ -52,10 +52,6 @@ main #bg-artists {
     width: 60px;
     border-radius: 50%;
   }
-  .track-relative {
-    position: relative;
-    bottom: 120px;
-  }
   .track-likes-number {
     font-size: 0.7em;
     font-weight: 500;

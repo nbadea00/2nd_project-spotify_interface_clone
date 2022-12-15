@@ -1,0 +1,116 @@
+#mobile-background-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pinguini.jpg");
+  width: 375px;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+#mobile-background-image h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: white;
+}
+#mobile-background-image div {
+  display: inline-block;
+  width: 25px;
+  margin: 35px 0 0 5px;
+  padding: 1px 0;
+  background-color: #727770;
+  border-radius: 50%;
+}
+#mobile-background-image div i {
+  margin-left: 5px;
+}
+
+.ascoltatori-mob p {
+  font-size: 0.7em;
+  opacity: 0.5;
+  font-weight: 300;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.mob-art-subheader {
+  background: linear-gradient(#2D2D2B, #121212);
+}
+
+.seguiti p {
+  font-size: 0.7em;
+  padding-right: 30px;
+  margin: 0;
+  padding-left: 10px;
+}
+.seguiti i {
+  padding-right: 5px;
+  opacity: 0.5;
+}
+
+.art-triangle {
+  margin-right: 0;
+  position: relative;
+}
+
+.triangolo2 {
+  color: white;
+  width: 30px;
+  position: relative;
+  left: 46px;
+  z-index: 2;
+}
+
+.cerchio2 {
+  width: 50px;
+  position: relative;
+  color: rgba(3, 121, 33, 0.8078431373);
+}
+
+#artist-mob-tracks-likes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+#artist-mob-tracks-likes img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#artist-mob-tracks-likes h6 {
+  font-size: 0.8em;
+  margin: 0;
+  font-weight: 400;
+}
+#artist-mob-tracks-likes p {
+  font-size: 0.7em;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.mob-temp-artist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mob-temp-artist div img {
+  width: 45px;
+  height: 45px;
+  margin: 0 10px 0 15px;
+}
+.mob-temp-artist div p {
+  margin: 0;
+  font-size: 0.7em;
+}
+.mob-temp-artist div div p {
+  font-size: 0.7em;
+  font-weight: 300;
+  opacity: 0.5;
+  margin: 0;
+}
+.mob-temp-artist div div h6 {
+  margin: 0;
+  font-size: 0.8em;
+}
+.mob-temp-artist i {
+  opacity: 0.5;
+}/*# sourceMappingURL=mobile.css.map */
