@@ -31,6 +31,7 @@ fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q=queen')
 
 for ( let i=0 ; i<=4 ; i++ ){
     let disco = data.data[i].album.title;
+  
     console.log(disco)
     let picture = data.data[i].album.cover_medium;
     let container2 =document.querySelector('#extended-playlist .row')
@@ -44,8 +45,8 @@ div.innerHTML=`<div class="container rounded-3 mb-3 extended-playlist-cont">
     </div>
     <div class="col-6 col-xl-12 extended-playlist-cont-txt">
         <p class="m-0 d-xl-none"> ${disco}</p>
-        <p class="m-0 extended-playlist-cont-title"></p>
-        <p class="m-0 extended-playlist-cont-desc d-none d-xl-block">Descrizione Playlist</p>
+        <p class="m-0 extended-playlist-cont-title">${ data.data[i].artist.name}</p>
+        <p class="m-0 extended-playlist-cont-desc d-none d-xl-block">${disco}</p>
     </div>
 </div>
 
@@ -55,13 +56,14 @@ div.innerHTML=`<div class="container rounded-3 mb-3 extended-playlist-cont">
         <i class="bi bi-three-dots-vertical col-3"></i>
     </div>
     <div class="col-6 d-flex justify-content-end align-items-center">
-        <p class="col-6 m-0">
+        <p class="col-6 m-0"></p>
         </p>
         <button type="button" class="bottone"><i class="bi bi-play-fill"></i></button>
     </div>
 </div>
 </div>`
 container2.append(div)
+
 
 }
 })

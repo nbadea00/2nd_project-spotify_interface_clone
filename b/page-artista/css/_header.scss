@@ -1,0 +1,117 @@
+/*header*/
+header{
+    #copertina{
+        background-image: url("../img/ricordi-testo.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        padding-top: $default-padding*6;
+        svg{
+            width: 30px;
+            path:first-child{
+                color:$tx-white;
+            };
+            path:last-child{
+                color: $tx-grey;
+            }
+        }
+    }
+}
+
+// frecce
+.desk-arrow-l{
+    background-color: #413818;
+    font-size: 1.2em;
+    padding: 1px 4px 1px 2px;
+    border-radius: 25px;
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.desk-arrow-r{
+    background-color: #413818;
+    font-size: 1.2em;
+    padding: 1px 2px 1px 4px;
+    border-radius: 25px;
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+#pop-up{
+    padding: 1px;
+    border: none;
+    background-color: #423918;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.6em;
+    font-weight: 500;
+    img{
+        width: 25px;
+    }
+    i{
+        font-size: 0.9em;
+        text-align: center;
+        
+        
+    }
+
+}
+
+.following-button{
+    font-size: 0.7em;
+    font-weight: 500;
+    color: white;
+    padding: 4px 13px;
+
+}
+
+// Play button desktop
+
+.triangle{
+    margin-left: -22px;
+    position: relative;
+}
+
+.triangolo{
+    color: black;
+    width: 30px;
+    position: relative;
+    left: 46px;
+    z-index: 2;
+}
+.cerchio{
+    width: 50px;
+    position: relative;
+    color: #26fd5cce;  // non cancellare- colore reale
+    
+}
+
+// blue check
+#artist{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+#blue-check{
+    position: relative;
+}
+
+.check{
+    color:#44abf6;
+    width: 20px;
+    position: relative;
+    left: 20px;
+    z-index: 2;
+}
+.circle{
+    width: 15px;
+    position: relative;
+    color: white;  // non cancellare- colore reale
+    
+}
