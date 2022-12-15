@@ -69,6 +69,56 @@ header #copertina svg path:last-child {
   text-align: center;
 }
 
+.following-button {
+  font-size: 0.7em;
+  font-weight: 500;
+  color: white;
+  padding: 4px 13px;
+}
+
+.triangle {
+  margin-left: -22px;
+  position: relative;
+}
+
+.triangolo {
+  color: black;
+  width: 30px;
+  position: relative;
+  left: 46px;
+  z-index: 2;
+}
+
+.cerchio {
+  width: 50px;
+  position: relative;
+  color: rgba(38, 253, 92, 0.8078431373);
+}
+
+#artist {
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+
+#blue-check {
+  position: relative;
+}
+
+.check {
+  color: #44abf6;
+  width: 20px;
+  position: relative;
+  left: 20px;
+  z-index: 2;
+}
+
+.circle {
+  width: 15px;
+  position: relative;
+  color: white;
+}
+
 main #ascoltatori {
   padding: 10px;
 }
@@ -79,6 +129,52 @@ main #bg-artists {
   background: linear-gradient(0deg, red, yellow);
 }
 
+@media screen and (min-width: 1200px) {
+  h5 {
+    font-size: 1.1em;
+    font-weight: 700;
+  }
+  .track-number {
+    font-size: 1m;
+    font-weight: 400;
+    opacity: 0.5;
+    padding-right: 10px;
+  }
+  .track-img {
+    width: 45px;
+    padding-right: 10px;
+  }
+  .track-name {
+    font-size: 0.7em;
+    font-weight: 500;
+  }
+  .track-views, .track-duration {
+    font-size: 0.6em;
+    font-weight: 400;
+    opacity: 0.5;
+  }
+  .track-likes-svg {
+    margin-right: 15px;
+  }
+  .track-likes-svg img {
+    width: 60px;
+    border-radius: 50%;
+  }
+  .track-relative {
+    position: relative;
+    bottom: 120px;
+  }
+  .track-likes-number {
+    font-size: 0.7em;
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+  .track-artist {
+    font-size: 0.7em;
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+}
 body {
   color: white;
   font-family: "Inter", sans-serif;
