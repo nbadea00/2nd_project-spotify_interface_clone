@@ -137,6 +137,16 @@ header .playlist-container .playlist-container-list {
   overflow: auto;
 }
 
+main {
+  grid-area: main;
+  order: 1;
+}
+@media (min-width: 1200px) {
+  main {
+    overflow-y: auto;
+  }
+}
+
 aside {
   grid-area: aside;
   color: white;

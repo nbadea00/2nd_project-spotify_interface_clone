@@ -11,7 +11,7 @@ main{
    background-position: center;
    background-repeat: no-repeat;
    background-size:cover;
-   height: 250px;
+   height: 300px;
 
    p{
     font-size: $fs-grey;
@@ -43,10 +43,7 @@ main{
 
     box-sizing: border-box;
     
-    span{
-        color:#44abf6;
-        font-size: large;
-    }
+
     #profile{
         img{
             border-radius: 50%;
@@ -57,20 +54,6 @@ main{
 .play{
     
     background:$bg-default-color;
-}
-
-// svg cerchio triangolo verde
-
-.prova {
-    width:50px;
-}
-.triangolo{
-    color: green;
-    width: 40px;
-    position: relative;
-    left: 51px;
-    bottom: 5px;
-
 }
 
 
