@@ -11,7 +11,7 @@ main{
    background-position: center;
    background-repeat: no-repeat;
    background-size:cover;
-   height: 300px;
+   height: 250px;
 
    p{
     font-size: $fs-grey;
@@ -43,7 +43,10 @@ main{
 
     box-sizing: border-box;
     
-
+    span{
+        color:#44abf6;
+        font-size: large;
+    }
     #profile{
         img{
             border-radius: 50%;
@@ -69,7 +72,6 @@ main{
     bottom: 5px;
 
 }
-
 
 
 
