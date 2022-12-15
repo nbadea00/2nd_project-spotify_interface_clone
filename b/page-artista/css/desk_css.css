@@ -11,6 +11,10 @@ main #ascoltatori p {
   opacity: 0.5;
 }
 
+main .bg-gray {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
 main #ascoltatori {
   padding: 10px;
 }
@@ -181,7 +185,7 @@ main .background {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  height: 500px;
 }
 main .background p {
   font-size: 14px;

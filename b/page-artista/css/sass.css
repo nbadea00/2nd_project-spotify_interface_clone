@@ -119,6 +119,10 @@ header #copertina svg path:last-child {
   color: white;
 }
 
+main .bg-gray {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
 main #ascoltatori {
   padding: 10px;
 }
@@ -211,18 +215,4 @@ body section li, body footer li {
 #popolari {
   background-color: black;
   color: white;
-}
-
-@media only screen and (min-width: 320px) {
-  #artist-desktop-block {
-    display: none;
-  }
-}
-@media only screen and (min-width: 1200) {
-  #artist-mobile-block {
-    display: none;
-  }
-  #artist-desktop-block {
-    display: unset;
-  }
 }/*# sourceMappingURL=sass.css.map */

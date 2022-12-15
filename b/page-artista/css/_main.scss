@@ -1,4 +1,10 @@
 main{
+
+    .bg-gray{
+        background-color: rgba($color: #000000, $alpha: 0.3);
+        height: 100%;
+    }
+
     #ascoltatori{
         padding: $default-padding*2;
         p{  
