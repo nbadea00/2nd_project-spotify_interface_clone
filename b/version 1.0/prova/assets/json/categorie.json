@@ -1,0 +1,307 @@
+[
+    {
+        "img": "https://wrapped-images.spotifycdn.com/image/browse-card/wrapped-temp-card.jpg",
+        "name": "2022 Hits",
+        "color": "rgb(132, 0, 231)"
+    },
+    {
+        "img": "https://i.scdn.co/image/567158eb895ad26718a814345af0fc43ee785ec5",
+        "name": "Podcast",
+        "color": "rgb(225, 51, 0)"
+    },
+    {
+        "img": "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+        "name": "Create per te",
+        "color": "rgb(30, 50, 100)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112",
+        "name": "Nuove uscite",
+        "color": "rgb(232, 17, 91)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafa862ab80dd85682b37c4e768",
+        "name": "Pop",
+        "color": "rgb(20, 138, 8)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf7e11c8413dc33c00740579c1",
+        "name": "Hip Hop",
+        "color": "rgb(188, 89, 0)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafdfdaac1cf9574a196ca25196",
+        "name": "Elettronica",
+        "color": "rgb(216, 64, 0)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafa59f90c077c9f618fd0dde30",
+        "name": "Latina",
+        "color": "rgb(225, 17, 140)"
+    },
+    {
+        "img": "https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg",
+        "name": "Classifiche",
+        "color": "rgb(141, 103, 171)"
+    },
+    {
+        "img": "https://concerts.spotifycdn.com/images/live-events_category-image.jpg",
+        "name": "Live Events",
+        "color": "rgb(115, 88, 255)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200008e2c64adf130003faa51378e3d2b",
+        "name": "Buone feste",
+        "color": "rgb(140, 25, 50)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafae7e69beb88f16969641b53e",
+        "name": "Rock",
+        "color": "rgb(233, 20, 41)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafa1a252e3a815b65778d8c2aa",
+        "name": "Indie",
+        "color": "rgb(233, 20, 41)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf271f9d895003c5f5561c1354",
+        "name": "Mood",
+        "color": "rgb(225, 17, 140)"
+    },
+    {
+        "img": "https://t.scdn.co/images/d0fb2ab104dc4846bdc56d72b0b0d785.jpeg",
+        "name": "Scopri",
+        "color": "rgb(141, 103, 171)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf1867113f5218598847550acd",
+        "name": "Di tendenza",
+        "color": "rgb(176, 40, 151)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf097a46192e6bb67e52cdff60",
+        "name": "Estate",
+        "color": "rgb(67, 130, 112)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf9ed6e364e8839210dc4dbff7",
+        "name": "EQUAL",
+        "color": "rgb(5, 105, 82)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafdb2aa9c7caea42f900721497",
+        "name": "RADAR",
+        "color": "rgb(119, 119, 119)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67706f000000029249b35f23fb596b6f006a15",
+        "name": "Allenamento",
+        "color": "rgb(119, 119, 119)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafcbf80f8ea695536eace4fd2c",
+        "name": "Party",
+        "color": "rgb(83, 122, 161)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf26dd3719e8824756914ae61f",
+        "name": "Gaming",
+        "color": "rgb(232, 17, 91)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafbe6a6e705e1a71117c2d0c2c",
+        "name": "R&B",
+        "color": "rgb(220, 20, 140)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caff005a355830c374754d32868",
+        "name": "Anni",
+        "color": "rgb(186, 93, 7)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf47e942f5bea637f4f4760170",
+        "name": "Relax",
+        "color": "rgb(216, 64, 0)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf31524ba1bc89837d86db3a5f",
+        "name": "Viva l'amore!",
+        "color": "rgb(140, 25, 50)"
+    },
+    {
+        "img": "https://t.scdn.co/images/61ad00d872894117a084cb5fbd1e7f12",
+        "name": "Sanremo '22",
+        "color": "rgb(29, 49, 100)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafb973ab1288f74f333e7e2e22",
+        "name": "Autori",
+        "color": "rgb(140, 25, 50)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf013ee3c983e6f60bf28bad5a",
+        "name": "K-pop",
+        "color": "rgb(20, 138, 8)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafe289743024639ea8f202364d",
+        "name": "Jazz",
+        "color": "rgb(119, 119, 119)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafdad1281e13697e8d8cf8f347",
+        "name": "Studenti",
+        "color": "rgb(186, 93, 7)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67706f00000002e4eadd417a05b2546e866934",
+        "name": "Concentrazione",
+        "color": "rgb(80, 55, 80)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67706f00000002c19c5f13f8b3ff2d73ff00bc",
+        "name": "Anime",
+        "color": "rgb(228, 29, 99)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafe914a07d20cec7a65e2e5dad",
+        "name": "A casa",
+        "color": "rgb(81, 121, 161)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf981eb78585210659d8bb5c53",
+        "name": "In auto",
+        "color": "rgb(205, 245, 100)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67706f00000002b70e0223f544b1faa2e95ed0",
+        "name": "Dormire",
+        "color": "rgb(30, 50, 100)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf12809992dfc5b318892ea07b",
+        "name": "Classica",
+        "color": "rgb(125, 75, 50)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafcc70a3c2e4c71398708bdc4a",
+        "name": "Folk & Acustica",
+        "color": "rgb(188, 89, 0)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafd82e2c83fe100a89e9cbb2a2",
+        "name": "Soul",
+        "color": "rgb(220, 20, 140)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafc0d2222b4c6441930e1a386e",
+        "name": "Country",
+        "color": "rgb(216, 64, 0)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafb4c4523336133ec3c7fd1744",
+        "name": "TV e film",
+        "color": "rgb(175, 40, 150)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf0b0c71c920d6a745461ada69",
+        "name": "Netflix",
+        "color": "rgb(235, 30, 50)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf2b1ff59a971dd399dea96009",
+        "name": "League of Legends",
+        "color": "rgb(20, 138, 8)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafe53d71d0920a4f1f441d803c",
+        "name": "Cucina & Cena",
+        "color": "rgb(186, 93, 7)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf4b36a2c31432ace68d90c4f2",
+        "name": "Viaggi",
+        "color": "rgb(13, 114, 237)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caffe596a0923d5e621697af766",
+        "name": "Punk",
+        "color": "rgb(30, 50, 100)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafefa737b67ec51ec989f5a51d",
+        "name": "Metal",
+        "color": "rgb(233, 20, 41)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafda178a834e4f87371e9fa543",
+        "name": "Alternative",
+        "color": "rgb(233, 20, 41)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67706f000000028ed1a5002b96c2ea882541b2",
+        "name": "Strumentale",
+        "color": "rgb(83, 122, 161)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafa6ee95dc83af715115f40522",
+        "name": "Ambient",
+        "color": "rgb(71, 125, 149)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caff22ac5cab318d550b593ffac",
+        "name": "Blues",
+        "color": "rgb(176, 98, 57)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf8ba1febbb4f77336b6f9aace",
+        "name": "Caraibi",
+        "color": "rgb(13, 115, 236)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf04faccb4f5e1828600921f37",
+        "name": "Afro",
+        "color": "rgb(216, 64, 0)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf6ba3a99776446ab3b295d2a6",
+        "name": "Reggae",
+        "color": "rgb(0, 100, 80)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafbb0e4ea229824157eee7467d",
+        "name": "Funk",
+        "color": "rgb(230, 30, 50)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf14030380532b34badbf0a229",
+        "name": "Spotify Singles",
+        "color": "rgb(119, 119, 119)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005cafcc1499bbb8565f490858c2bc",
+        "name": "Fresh Finds",
+        "color": "rgb(255, 0, 144)"
+    },
+    {
+        "img": "https://t.scdn.co/images/5387193aad9f42cea8184a5e55441dbb",
+        "name": "Pride",
+        "color": "rgb(216, 64, 0)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf8dec632effd9735fa8aba06e",
+        "name": "Benessere",
+        "color": "rgb(165, 103, 82)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf8a04560a209b3f32165ea8a2",
+        "name": "Bambini e famiglia",
+        "color": "rgb(141, 103, 171)"
+    },
+    {
+        "img": "https://i.scdn.co/image/ab67fb8200005caf3271ef796498ae4f97db81e2",
+        "name": "Arabo",
+        "color": "rgb(13, 115, 236)"
+    }
+]

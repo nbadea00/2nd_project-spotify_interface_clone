@@ -1,0 +1,42 @@
+footer {
+    grid-area: footer;
+    background-color: #000000;
+    height: 90vh;
+
+    padding: $default-padding*4 $default-padding*2;
+
+    color: $tx-white;
+
+    font-size: $fs-default*1.25;
+
+
+    .friend {
+
+        * {
+            margin: 0px;
+        }
+
+        h5 {
+            display: flex;
+            justify-content: space-between;
+            font-size: $fs-default;
+            font-weight: bold;
+            span{
+                font-weight: 400;
+            }
+        }
+
+        .card {
+            background: none;
+            border: none;
+
+            &-body{
+                padding-right: $default-padding*0;
+            }
+
+            &-text{
+                font-size: $fs-grey;
+            }
+        }
+    }
+}

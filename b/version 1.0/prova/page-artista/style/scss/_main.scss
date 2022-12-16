@@ -1,0 +1,177 @@
+main {
+
+    color: $tx-white;
+
+    .background {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        height: 300px;
+
+        @include ds-xl{   
+            height: 500px;
+        }
+
+        .black-screen {
+            background-color: rgba($bg-color-black, $alpha: 0.4);
+            height: 100%;
+
+            #frecce {
+                .desk-arrow {
+                    @extend %desk-arrow;
+                }
+            }
+
+            #user-cont {
+
+                #user {
+                    border-radius: $br-default*6;
+                    border: none;
+
+                    background-color: $bg-color-black;
+                    color: $tx-grey;
+
+                    img {
+                        width: 40px;
+                    }
+                }
+            }
+
+            #certificate {
+                svg {
+                    width: 20px;
+                }
+
+                .check {
+                    color: $bg-bage-conf;
+                    position: relative;
+                    top: 25px;
+                    left: -2px;
+                    width: 24px;
+                }
+
+            }
+
+            #artist-name {
+
+                font-size: $fs-default*3;
+                @include ds-xl{
+                    font-size: $fs-default*6;
+                }
+            }
+
+            #fan{
+                @extend %text-grey;
+                position: relative;
+                top: 45px;
+
+                @include ds-xl{
+                    position: unset;
+                    font-size: $fs-default;
+                    color: $tx-white;
+                }
+            }
+
+        }
+    }
+
+    #cont-brani {
+
+        padding: 15px;
+
+        .play {
+            *{
+                padding: 0px;
+            }
+
+            svg {
+                width: 30px;
+                @include ds-xl{
+                    width: 40px;
+                    color: black;
+                }
+            }
+
+
+
+            .cerchio {
+                width: 40px;
+                color: $play-color;
+                @include ds-xl{
+                    width: 60px;
+                }
+            }
+
+            .triangolo {
+                position: relative;
+                left: 62px;
+
+                @include ds-xl{
+                    left: unset;
+                    right: 254px;
+                }
+            }
+
+
+            .following-button {
+                padding: $default-padding $default-padding*2;
+                color: $tx-white;
+            }
+        }
+
+        h5{
+            font-size: $fs-default*1.5;
+            @include ds-xl{
+                font-size: $fs-default*2;
+            }
+            padding-bottom: $default-padding*4;
+        }
+
+        #container-song-track {
+
+            .row {
+                padding-bottom: $default-padding*2;
+
+                * {
+                    padding: 0px;
+                }
+            }
+
+            .track-views{
+                color: $tx-grey;
+                font-size: $fs-grey;
+            }
+
+            .track-duration{
+                color: $tx-grey;
+            }
+
+            img {
+                width: 60px;
+            }
+
+            p {
+                margin: 0px;
+            }
+        }
+
+        #brani-piacciono{
+            p{
+                margin: 0px;
+            }
+            .track-likes-svg{
+    
+                img{
+                    border-radius: 50%;
+                }
+            }
+
+            .track-artist{
+                @extend %text-grey;
+            }
+        }
+    }
+}
+
+

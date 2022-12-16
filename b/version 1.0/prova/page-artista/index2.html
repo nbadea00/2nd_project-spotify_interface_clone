@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="../style/css/reset.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../style/css/app.css" />
+  <link rel="stylesheet" href="style/css/app.css" />
+</head>
+
+<body>
+  <!--Inizio Header-->
+  <header>
+    <!--Inizio Navbar-->
+    <nav>
+      <ul class="menu">
+        <li class="menu-element d-none d-xl-block">
+          <div class="dropdown">
+            <button class="bottone" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-three-dots"></i>
+            </button>
+            <ul class="dropdown-menu bg-secondary">
+              <li><a class="dropdown-item" href="#">File</a></li>
+              <li><a class="dropdown-item" href="#">Modifica</a></li>
+              <li><a class="dropdown-item" href="#">Visualizza</a></li>
+              <li><a class="dropdown-item" href="#">Riproduzione</a></li>
+              <li><a class="dropdown-item" href="#">Assistenza</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="menu-element">
+          <span><i class="bi bi-house-door"></i></span>
+          <a href="../page-home/index copy.html">
+            <span> Home </span>
+          </a>
+        </li>
+        <li class="menu-element">
+          <span id="cerca">
+            <i class="bi bi-search"></i>
+            <span> Cerca </span>
+          </span>
+          
+        </li>
+        <li class="menu-element">
+          <span>
+          <i class="bi bi-book"></i></span>
+          <span> La tua libreria </span>
+        </li>
+      </ul>
+    </nav>
+    <!--Fine Navbar-->
+
+    <section class="playlist-container d-none d-xl-block">
+      <section class="playlist-container-option">
+        <div>
+          <span class="box-icona-grigia">
+            <i class="bi bi-plus-lg"></i>
+          </span>
+          <span> Crea playlist </span>
+        </div>
+
+        <div>
+          <span class="box-icona">
+            <i class="bi bi-suit-heart-fill"></i>
+          </span>
+          <span> Brani che ti piacciono </span>
+        </div>
+
+        <div>
+          <span class="box-icona-verde">
+            <i class="bi bi-bookmark-fill"></i>
+          </span>
+          <span> I tuoi episodi </span>
+        </div>
+      </section>
+
+      <section class="playlist-container-list d-none d-xl-block">
+        <p class="playlist-container-list-title">
+          early stage emily syndrome
+        </p>
+        <p class="playlist-container-list-title">Be the Young</p>
+        <p class="playlist-container-list-title">"..." cit. Kimiko</p>
+        <p class="playlist-container-list-title">saggio vibes</p>
+        <p class="playlist-container-list-title">
+          main character energy(mag-giu 2022)
+        </p>
+        <p class="playlist-container-list-title">
+          early stage emily syndrome
+        </p>
+        <p class="playlist-container-list-title">Be the Young</p>
+        <p class="playlist-container-list-title">"..." cit. Kimiko</p>
+        <p class="playlist-container-list-title">saggio vibes</p>
+        <p class="playlist-container-list-title">
+          main character energy(mag-giu 2022)
+        </p>
+        <p class="playlist-container-list-title">
+          early stage emily syndrome
+        </p>
+        <p class="playlist-container-list-title">Be the Young</p>
+        <p class="playlist-container-list-title">"..." cit. Kimiko</p>
+        <p class="playlist-container-list-title">saggio vibes</p>
+        <p class="playlist-container-list-title">
+          main character energy(mag-giu 2022)
+        </p>
+        <p class="playlist-container-list-title">
+          early stage emily syndrome
+        </p>
+        <p class="playlist-container-list-title">Be the Young</p>
+        <p class="playlist-container-list-title">"..." cit. Kimiko</p>
+        <p class="playlist-container-list-title">saggio vibes</p>
+        <p class="playlist-container-list-title">
+          main character energy(mag-giu 2022)
+        </p>
+        <p class="playlist-container-list-title">
+          early stage emily syndrome
+        </p>
+        <p class="playlist-container-list-title">Be the Young</p>
+        <p class="playlist-container-list-title">"..." cit. Kimiko</p>
+        <p class="playlist-container-list-title">saggio vibes</p>
+        <p class="playlist-container-list-title">
+          main character energy(mag-giu 2022)
+        </p>
+      </section>
+    </section>
+  </header>
+  <!--Fine Header-->
+
+  <main>
+    <div class="background">
+      <div class="black-screen d-flex flex-column justify-content-between m-0 px-3 pt-2">
+        <div class="row justify-content-between pt-2 pb-3">
+
+          <!--Frecce per moversi nella paggina-->
+          <div id="frecce" class="col-7">
+            <i class="bi bi-chevron-left ms-2 desk-arrow"></i>
+            <i class="bi bi-chevron-right ms-2 desk-arrow d-none d-xl-inline"></i>
+          </div>
+
+          <!--Elemento utente-->
+          <div id="user-cont" class="col-5 text-end d-none ps-4 d-xl-block">
+            <button id="user" class=" m-0 p-0">
+              <img src="../assets/img/nautilus.webp" class="pe-1 img-fluid rounded-circle" alt=""> Lidia Nautilus ... <i
+                class="bi bi-caret-down-fill px-2"></i></button>
+          </div>
+
+        </div>
+
+
+        <div class="container">
+          <div id="certificate" class="d-flex align-items-end">
+
+            <!--Bage verificato-->
+            <div id="blue-check">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="d-block check" viewBox="0 0 16 16">
+                <path
+                  d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="circle" viewBox="0 0 16 16">
+                <circle cx="8" cy="8" r="8" />
+              </svg>
+            </div>
+            <p class="ps-2 m-0">Artista verificato</p>
+          </div>
+
+
+          <h1 id="artist-name" class="fw-bold"></h1>
+          <p id="fan"></p>
+        </div>
+
+      </div>
+    </div>
+
+    <section id="cont-brani" class="container mt-4">
+
+      <div class="play d-flex align-items-center gap-4 d-none  d-xl-flex mb-4">
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-circle-fill cerchio"
+          viewBox="0 0 16 16">
+          <circle cx="8" cy="8" r="8" />
+        </svg>
+
+        <a href="#" class="text-decoration-none border border-white rounded  following-button">FOLLOWING</a>
+
+        <i class="bi bi-three-dots text-muted"></i>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="triangolo" fill="currentColor" class="bi bi-play-fill"
+          viewBox="0 0 16 16">
+          <path
+            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+        </svg>
+
+      </div>
+
+      <div class="container d-xl-none play pb-3">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-6 d-flex">
+            <p class="col-6 m-0">Seguiti</p>
+            <i class="bi bi-three-dots-vertical col-6"></i>
+          </div>
+
+          <div class="col-6 text-end">
+            <svg xmlns="http://www.w3.org/2000/svg" class="triangolo" fill="currentColor" class="bi bi-play-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+            </svg>
+
+            <i class="random bi bi-shuffle col-4"></i>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-circle-fill cerchio col-8"
+              viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-xl-7 order-2 order-xl-1 row pb-3">
+            <h5 class="col-12">Popolari</h5>
+            <div id="container-song-track">
+
+            </div>
+
+            <p id="more-songs" class="col-12 p-0 py-3 m-0">VISUALIZZA ALTRO</p>
+          </div>
+
+          <div id="brani-piacciono" class="col-12 order-1 order-xl-2 col-xl-5">
+            <h5>Brani che ti piacciono</h5>
+            <div class="d-flex flex-column">
+              <div class="d-flex align-items-center gap-3">
+                <div class="track-likes-svg">
+                  <img src="#" alt="">
+                </div>
+                <div>
+                  <p class="track-likes-number">Hai messo Mi piace a <span id="n-barni-pref">11</span> brani</p>
+                  <p class="track-artist">Di </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+  </main>
+
+  <aside class="">
+    <section class="container-fluid player">
+      <div class="d-flex justify-content-center">
+        <div id="txt" class="d-flex align-items-center">
+          <img id="cover-play-song" src="../assets/img/SVG_Circle.svg.png" alt="" class="img-fluid player-img" />
+          <span>
+            <h4 id="title-play-song" class="m-0 player-title">
+            </h4>
+            <p id="artist-play-song" class="m-0"></p>
+        </div>
+        </span>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-heart"></i>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-center flex-column player-controller">
+          <div class="d-flex align-items-center justify-content-center gap-3">
+            <i class="random bi bi-shuffle d-none d-xl-block"></i>
+            <i class="bi bi-skip-start-fill d-none d-xl-block"></i>
+            <i id="play" class="bi bi-play-fill"></i>
+            <i class="bi bi-skip-end-fill d-none d-xl-block"></i>
+            <i id="repeat" class="bi bi-repeat d-none d-xl-block"></i>
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center">
+            <span id="time-inizio" class="d-none d-xl-block">1:30</span>
+
+            <p class="m-0 d-none d-xl-block">
+              <svg id="music-bar" height="24" width="500">
+                <line x1="10" y1="12" x2="490" y2="12" style="stroke: gray; stroke-width: 4; stroke-linecap: round" />
+                <line id="linea-play" x1="10" y1="12" x2="10" y2="12" style="
+                      stroke: white;
+                      stroke-width: 4;
+                      stroke-linecap: round;
+                    " />
+              </svg>
+            </p>
+
+            <span id="time-fine" class="d-none d-xl-block">0:00</span>
+          </div>
+
+          <audio class="d-none"></audio>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-end">
+          <i class="bi bi-mic d-none d-xl-block"></i>
+          <i class="bi bi-hdd-stack d-none d-xl-block"></i>
+          <i class="bi bi-pc-display"></i>
+          <i id="muted" class="bi bi-volume-up d-none d-xl-block"></i>
+          <svg id="volum-bar" class="d-none d-xl-block" height="24" width="100">
+            <line x1="2" y1="12" x2="98" y2="12" style="stroke: gray; stroke-width: 4; stroke-linecap: round" />
+            <line x1="2" y1="12" x2="98" y2="12" style="stroke: white; stroke-width: 4; stroke-linecap: round" />
+          </svg>
+          <i class="bi bi-arrows-angle-expand d-none d-xl-block"></i>
+        </div>
+      </div>
+    </section>
+  </aside>
+
+  <footer class="d-none d-xl-block">
+    <div class="d-flex justify-content-between">
+      <p>Attività amici</p>
+      <span>
+        <i class="bi bi-person-plus"></i>
+        <i class="bi bi-x-lg"></i>
+      </span>
+    </div>
+
+    <section class="friend">
+      <div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-2">
+              <img src="../assets/img/s.jpg" class="img-fluid rounded-circle" alt="..." />
+            </div>
+            <div class="col-10">
+              <div class="card-body py-0">
+                <h5 class="card-title">Charlie Hookham <span>4 ore</span></h5>
+                <p class="card-text">
+                  In Camera <i class="bi bi-dot"></i> Yumi Zouma
+                </p>
+                <p class="card-text"><i class="bi bi-disc pe-2"></i>EP III</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-2">
+              <img src="../assets/img/s.jpg" class="img-fluid rounded-circle" alt="..." />
+            </div>
+            <div class="col-10">
+              <div class="card-body py-0">
+                <h5 class="card-title">Charlie Hookham <span>4 ore</span></h5>
+                <p class="card-text">
+                  In Camera <i class="bi bi-dot"></i> Yumi Zouma
+                </p>
+                <p class="card-text"><i class="bi bi-disc pe-2"></i>EP III</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-2">
+              <img src="../assets/img/s.jpg" class="img-fluid rounded-circle" alt="..." />
+            </div>
+            <div class="col-10">
+              <div class="card-body py-0">
+                <h5 class="card-title">Charlie Hookham <span>4 ore</span></h5>
+                <p class="card-text">
+                  In Camera <i class="bi bi-dot"></i> Yumi Zouma
+                </p>
+                <p class="card-text"><i class="bi bi-disc pe-2"></i>EP III</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <script type="module" src="./script/script.js"></script>
+  <script type="module" src="./script/search.js"></script>
+  <script type="text/javascript" src="./script/player.js"></script>
+</body>
+
+</html>

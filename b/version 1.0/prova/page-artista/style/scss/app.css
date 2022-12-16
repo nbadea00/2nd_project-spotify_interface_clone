@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"); /*Space*/
+/*Text color*/
+/*Bg color*/
+/*Border*/
+/*Font*/
+/*bottone play*/
+/*Color*/
+main #cont-brani #brani-piacciono .track-artist, main .background .black-screen #fan {
+  font-size: 14px;
+  color: #696e68;
+  opacity: 0.9;
+}
+
+main .background .black-screen #frecce .desk-arrow {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2em;
+  padding: 1px 4px 1px 3px;
+  border-radius: 25px;
+  color: white;
+}
+main .background .black-screen #frecce .desk-arrow:hover {
+  opacity: 1;
+}
+
+main {
+  color: white;
+}
+main .background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+}
+@media (min-width: 1200px) {
+  main .background {
+    height: 500px;
+  }
+}
+main .background .black-screen {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+}
+main .background .black-screen #user-cont #user {
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  color: #696e68;
+}
+main .background .black-screen #user-cont #user img {
+  width: 40px;
+}
+main .background .black-screen #certificate svg {
+  width: 20px;
+}
+main .background .black-screen #certificate .check {
+  color: #3d91f4;
+  position: relative;
+  top: 25px;
+  left: -2px;
+  width: 24px;
+}
+main .background .black-screen #artist-name {
+  font-size: 48px;
+}
+@media (min-width: 1200px) {
+  main .background .black-screen #artist-name {
+    font-size: 96px;
+  }
+}
+main .background .black-screen #fan {
+  position: relative;
+  top: 45px;
+}
+@media (min-width: 1200px) {
+  main .background .black-screen #fan {
+    position: unset;
+    font-size: 16px;
+    color: white;
+  }
+}
+main #cont-brani {
+  padding: 15px;
+}
+main #cont-brani .play * {
+  padding: 0px;
+}
+main #cont-brani .play svg {
+  width: 30px;
+}
+@media (min-width: 1200px) {
+  main #cont-brani .play svg {
+    width: 40px;
+    color: black;
+  }
+}
+main #cont-brani .play .cerchio {
+  width: 40px;
+  color: #1ed760;
+}
+@media (min-width: 1200px) {
+  main #cont-brani .play .cerchio {
+    width: 60px;
+  }
+}
+main #cont-brani .play .triangolo {
+  position: relative;
+  left: 62px;
+}
+@media (min-width: 1200px) {
+  main #cont-brani .play .triangolo {
+    left: unset;
+    right: 254px;
+  }
+}
+main #cont-brani .play .following-button {
+  padding: 5px 10px;
+  color: white;
+}
+main #cont-brani h5 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  main #cont-brani h5 {
+    font-size: 32px;
+  }
+}
+main #cont-brani #container-song-track .row {
+  padding-bottom: 10px;
+}
+main #cont-brani #container-song-track .row * {
+  padding: 0px;
+}
+main #cont-brani #container-song-track .track-views {
+  color: #696e68;
+  font-size: 14px;
+}
+main #cont-brani #container-song-track .track-duration {
+  color: #696e68;
+}
+main #cont-brani #container-song-track img {
+  width: 60px;
+}
+main #cont-brani #container-song-track p {
+  margin: 0px;
+}
+main #cont-brani #brani-piacciono p {
+  margin: 0px;
+}
+main #cont-brani #brani-piacciono .track-likes-svg img {
+  border-radius: 50%;
+}/*# sourceMappingURL=app.css.map */

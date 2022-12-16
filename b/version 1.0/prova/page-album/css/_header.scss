@@ -1,0 +1,158 @@
+#cover{
+    padding-top: 50px;
+    
+    div{
+        h3{
+            padding-top: 20px;
+            font-weight: 500;
+            font-size: 1.3em;
+        }
+
+    }
+}
+
+.bi-arrow-left{
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+#artist-name{
+    padding-left: 5px;
+    font-size: 0.8em;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.playbar-icons{
+
+    font-size: 1.5em;
+    
+}
+
+.playbar-play{
+    font-size: 3em;
+    color: rgba(54, 216, 94, 0.842);
+    
+}
+
+
+h1{
+    font-size: 2.6em;
+    font-weight: 700;
+}
+
+//desktop
+
+.desk-arrow-l{
+    background-color: #413818;
+    font-size: 1.2em;
+    padding: 1px 4px 1px 2px;
+    border-radius: 25px;
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.desk-arrow-r{
+    background-color: #413818;
+    font-size: 1.2em;
+    padding: 1px 2px 1px 4px;
+    border-radius: 25px;
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+#pop-up{
+    padding: 1px;
+    border: none;
+    background-color: #423918;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.6em;
+    font-weight: 500;
+    img{
+        width: 25px;
+    }
+    i{
+        font-size: 0.9em;
+        text-align: center;
+        
+        
+    }
+
+}
+
+#desk-header-album{
+    font-size: 0.7em;
+    color: white;
+    opacity: 1;
+    font-weight: 600;
+}
+#desk-header-h1{
+    padding: 0;
+    font-size: 2.2em;
+}
+
+#desk-header-artist{
+    font-size: 0.6em;
+    img{
+        width: 25px;
+    }
+    font-weight: 600;
+    span{
+        font-weight:500;
+        opacity: 0.8;
+        &:last-child{
+            font-weight: 300;
+            opacity: 0.5;
+        }
+    };
+}
+//Play button Mobile
+
+.triangle2{
+    margin-right: 0;
+    position: relative;
+}
+
+.triangolo2{
+    color: white;
+    width: 30px;
+    position: relative;
+    left: 46px;
+    z-index: 2;
+}
+.cerchio2{
+    width: 50px;
+    position: relative;
+    color: #037921ce;  // non cancellare- colore reale
+    
+}
+
+
+// Play button desktop
+.triangle{
+    margin-left: -42px;
+    position: relative;
+}
+
+.triangolo{
+    color: black;
+    width: 30px;
+    position: relative;
+    left: 46px;
+    z-index: 2;
+}
+.cerchio{
+    width: 50px;
+    position: relative;
+    color: #26fd5cce;  // non cancellare- colore reale
+    
+}
+
+
+
+

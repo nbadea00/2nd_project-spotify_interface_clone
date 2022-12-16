@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import "header";
+@import "main";
+
+
+body{
+    color:white;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+
+#album-mobile{
+    background: linear-gradient(180deg, rgba(107,97,28,1) 0%, rgb(26, 25, 25) 53%, rgba(18,18,18,255) 100%);
+}
+
+#album-desktop{
+    background-color: black;
+}
+#album-page-desktop{
+    background: linear-gradient(180deg, rgb(228,197,81,1) 0%, rgb(26, 25, 25) 53%, rgba(18,18,18,255) 100%);
+}
+
+
