@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+@import "var";
+@import "mixin";
+@import "placeholder";
+@import"scroll-bar";
+@import "header";
+@import "search";
+@import"main";
+@import "aside";
+@import "footer";
+
+body {
+
+    font-family: 'Inter', sans-serif;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-color: $bg-default-color;
+
+    a{
+        color: unset;
+        text-decoration: none;
+    }
+
+    @include ds-xl{
+        display: grid;
+        grid-template-columns: 20% auto auto auto 22%;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas: 'header main main main footer '
+        'header main main main footer '
+        'header main main main footer '
+        'header main main main footer '
+        'aside aside aside aside aside ';
+    }
+}

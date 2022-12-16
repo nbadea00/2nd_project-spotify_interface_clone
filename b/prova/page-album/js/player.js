@@ -1,6 +1,6 @@
 let playButton = document.querySelector('#play');
 let repeatButton = document.querySelector('#repeat');
-let randomButton = document.querySelectorAll('.random');
+let randomButton = document.querySelectorAll('.bi-shuffle');
 let mutedButton = document.querySelector('#muted');
 let audio = document.querySelector('audio');
 let volumBar = document.querySelector('#volum-bar');

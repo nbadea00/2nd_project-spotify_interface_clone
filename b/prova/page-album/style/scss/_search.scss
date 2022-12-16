@@ -1,0 +1,26 @@
+main{
+    #frecce {
+        .desk-arrow {
+            @extend %desk-arrow;
+        }
+    }
+
+    *:focus{
+       outline: none;
+    }
+
+    #user-cont {
+
+        #user {
+            border-radius: $br-default*6;
+            border: none;
+
+            background-color: $bg-color-black;
+            color: $tx-grey;
+
+            img {
+                width: 40px;
+            }
+        }
+    }
+}

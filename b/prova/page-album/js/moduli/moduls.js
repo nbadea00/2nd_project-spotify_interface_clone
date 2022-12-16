@@ -153,7 +153,7 @@ export class Songs {
 
     static timeSkip() {
 
-        let randomButton = document.querySelectorAll('.random');
+        let randomButton = document.querySelectorAll('.bi-shuffle');
         let repeatButton = document.querySelector('#repeat');
         let list = songList;
         let n = 0;
@@ -244,6 +244,8 @@ export class Songs {
 
     conectToPlayer(cont, song, obj) {
         cont.addEventListener('click', function () {
+
+            songList = obj;
 
             Songs.timeSkip(obj);
             song.skipNext(obj);

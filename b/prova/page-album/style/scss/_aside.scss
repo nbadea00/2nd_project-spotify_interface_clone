@@ -1,0 +1,168 @@
+aside {
+    grid-area: aside;
+    color: white;
+    height: 10vh;
+
+    order: 2;
+
+    position: sticky;
+    bottom: 95px;
+    z-index: 1;
+    padding: $default-padding*0 $default-padding;
+
+    @include ds-xl {
+        position: unset;
+        padding: $default-padding*0;
+    }
+
+
+
+    .player {
+        background-color: $bg-default-color;
+        border-radius: 10px;
+        width: 100%;
+        padding: $default-padding*1.2 $default-padding*2;
+
+        @include ds-xl {
+            border-radius: 0px;
+        }
+
+        div:first-child {
+            gap: 10px;
+
+            @include ds-xl {
+                gap: 0px;
+            }
+        }
+        #txt{
+
+            span{
+                padding-left: $default-padding*0;
+                max-width: 200px;
+                @include ds-xl{
+                    padding-left: $default-padding*4;
+                }
+                overflow-x: hidden;
+                white-space: nowrap;
+            }
+        }
+
+        div {
+            div:nth-child(1) {
+                order: 1;
+            }
+
+            div:nth-child(2) {
+                order: 3;
+            }
+
+            div:nth-child(3) {
+                order: 4;
+            }
+
+            div:nth-child(4) {
+                order: 2;
+            }
+
+            @include ds-xl {
+
+                div:nth-child(1) {
+                    width: 14%;
+                    order: 1;
+                }
+
+                div:nth-child(2) {
+                    width: 6%;
+                    order: 2;
+                }
+
+                div:nth-child(3) {
+                    width: 60%;
+                    order: 3;
+                }
+
+                div:nth-child(4) {
+                    width: 20%;
+                    order: 4;
+                }
+
+            }
+        }
+
+        &-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+
+            @include ds-xl {
+                width: 50px;
+                height: 50px;
+                border-radius: 0%;
+            }
+        }
+
+
+        p {
+            font-size: $fs-grey;
+            padding-left: $default-padding;
+            color: $tx-grey;
+
+            @include ds-xl {
+                padding: $default-padding*0;
+            }
+        }
+
+        &-title {
+            display: flex;
+            align-items: center;
+            padding-left: $default-padding*0;
+            font-size: $fs-grey;
+
+            overflow: hidden;
+            white-space: nowrap;
+
+            @include ds-xl {
+                overflow: unset;
+                white-space: unset;
+                flex-direction: column;
+                align-items: unset;
+                font-size: $fs-grey;
+            }
+
+        }
+
+        &-controller {
+
+            div:nth-child(1) i {
+                font-size: $fs-default*1.5;
+            }
+
+            @include ds-xl {
+                div:nth-child(1) i {
+                    font-size: $fs-default*1.25;
+                }
+            }
+
+            div:nth-child(1) i:nth-child(3) {
+                @include ds-xl {
+                    height: 40px;
+                    font-size: $fs-default*2.5;
+                    position: relative;
+                    top: -8px;
+                }
+            }
+
+        }
+
+        div:nth-child(4) {
+
+            @include ds-xl {
+                gap: 15px;
+
+                i {
+                    font-size: $fs-default*1.25;
+                }
+            }
+        }
+    }
+}
