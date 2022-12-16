@@ -5,6 +5,7 @@
 #cover div h3 {
   padding-top: 20px;
   font-weight: 500;
+  font-size: 1.3em;
 }
 
 .bi-arrow-left {
@@ -138,7 +139,6 @@ h1 {
   color: rgba(38, 253, 92, 0.8078431373);
 }
 
-/*------------------------------------------*/
 h6 {
   font-size: 1em;
   font-weight: 300;
@@ -158,9 +158,20 @@ main p {
   margin: 0;
   opacity: 0.5;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.7em;
+}
+main h6 {
+  font-size: 0.8em;
 }
 
+@media screen and (min-width: 1200px) {
+  main p {
+    margin: 0;
+    opacity: 0.5;
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
 body {
   color: white;
   font-family: "Inter", sans-serif;
@@ -178,4 +189,9 @@ body {
 
 #album-page-desktop {
   background: linear-gradient(180deg, rgb(228, 197, 81) 0%, rgb(26, 25, 25) 53%, rgb(18, 18, 18) 100%);
+}
+
+#album-mob-art-img {
+  width: 25px;
+  height: 25px;
 }/*# sourceMappingURL=style.css.map */

@@ -16,5 +16,22 @@ main{
     margin: 0;
     opacity: 0.5;
     font-weight: 300;
-    font-size: 14px;  
-}}
+    font-size: 0.7em;  
+    }
+    h6{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    main{
+        p{
+        margin: 0;
+        opacity: 0.5;
+        font-weight: 300;
+        font-size: 14px;  
+        }
+
+}
+}
+
