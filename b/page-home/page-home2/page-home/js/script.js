@@ -7,9 +7,9 @@ fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q=queen')
 .then (function(json){
     data=json;
         console.log(data);
-  document.querySelector(".banner").innerHTML=` <div class="row g-0">
+  document.querySelector(".banner").innerHTML=` <div class="row g-2">
   <div class="col-md-4">
-      <img src="${data.data[0].album.cover_medium}" class="img-fluid rounded-start" alt="...">
+      <img src="${data.data[0].album.cover_medium}" class="img-fluid rounded" alt="...">
   </div>
   <div class="col-md-8">
       <div class="card-body">
@@ -17,7 +17,7 @@ fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q=queen')
               <p class="m-0">Album</p>
               <button>NASCONDI ANNUNCI</button>
           </div>
-          <h5 class="card-title">${data.data[0].title_short}</h5>
+          <h5 class="card-title">${data.data[0].album.title}</h5>
           <p class="card-text"><span>${data.data[0].artist.name}</span></p>
           <p class="card-text"> Ascolta il nuovo singolo dei ${data.data[0].artist.name}</span></p>
           <div class="card-text d-flex align-items-center gap-3">
@@ -62,13 +62,13 @@ div.innerHTML=`<div class="container rounded-3 mb-3 extended-playlist-cont">
     </div>
 </div>
 </div>`
-container2.append(div);
+container2.append(div);}
 
 
 
 // in teoria dovrebbe ipoteticamente funziare ma js ce l'ha con noi ...sistemiano?? e ricordiamoci di togliere il commento all'html
-for(var j=5; j<data.length; j++){
-
+for(var j=5 ;j<11; j ++){
+console.log(data.data[j].title);
         
         let disco2=data.data[j].album.title; 
         let picture2= data.data[j].album.cover_small;
@@ -92,7 +92,7 @@ buonasera.append(div2)
 }
 
 }
-})
+)
 
 
 
