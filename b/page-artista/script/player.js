@@ -8,10 +8,10 @@ playButton.addEventListener('click', function(){
     
     if ( this.style.color !== 'blue'){
         audio.pause();
-        this.style.color = 'blue'
+        this.style.color = 'blue';
     }else{
         audio.play();
-        this.style.color = 'red'
+        this.style.color = 'red';
     }
 })
 

@@ -1,0 +1,129 @@
+header {
+    grid-area: header;
+    background-color: $bg-color-black;
+    opacity: 0.9;
+    color: $tx-white;
+
+    position: sticky;
+    bottom: 0px;
+    z-index: 1;
+
+    order: 3;
+
+    font-size: $fs-default;
+
+    @include ds-xl {
+        height: 90vh;
+        font-size: $fs-default;
+        opacity: 1;
+    }
+
+    padding: $default-padding $default-padding*2;
+
+
+    nav {
+
+        @include ds-xl {
+            height: 20vh;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 0px;
+
+            @include ds-xl {
+                display: block;
+                text-align: start;
+            }
+
+            list-style: none;
+            line-height: 40px;
+            padding: $default-padding*0;
+
+            .bottone {
+                background: none;
+                border: none;
+                color: $tx-white;
+                padding: $default-padding*0;
+            }
+
+            &-element {
+                display: flex;
+                flex-direction: column;
+                
+
+                @include ds-xl {
+                    display: block;
+                }
+
+                i{
+                    font-size: $fs-default*1.4;
+                    @include ds-xl{
+                        font-size: $fs-default*1.2;
+                    }
+                }
+            }
+
+            &-element:nth-child(3){
+                padding-left: $default-padding*10;
+                @include ds-xl{
+                    padding: $default-padding*0;
+                }
+            }
+            &-element:nth-child(4){
+                padding-left: $default-padding*6;
+                @include ds-xl{
+                    padding: $default-padding*0;
+                }
+            }
+        }
+    }
+
+    .playlist-container {
+
+        &-option {
+            border-bottom: 1px solid gray;
+            padding-bottom: $default-padding*3;
+
+            line-height: 40px;
+            height: 20vh;
+
+            div {
+
+                padding: $default-padding $default-padding*0;
+
+                span:nth-child(2) {
+                    padding-left: $default-padding*2;
+                }
+
+                .box-icona {
+                    @extend %box-icona;
+                    background: $bg-button-viola;
+                }
+
+                .box-icona-grigia {
+                    @extend %box-icona;
+                    background-color: $bg-icona-add;
+                    color: #2c2c2c;
+                }
+
+                .box-icona-verde {
+                    @extend %box-icona;
+                    background-color: $bg-icona-bookmark;
+                    color: #149643;
+                }
+
+            }
+
+        }
+
+        .playlist-container-list {
+            padding-top: $default-padding*3;
+            height: 50vh;
+            overflow: auto;
+        }
+    }
+
+}

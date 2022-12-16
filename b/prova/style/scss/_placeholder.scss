@@ -1,0 +1,26 @@
+%box-icona {
+    padding: 3.34px 3px 6px 8px;
+    border-radius: 2px;
+}
+
+%dot {
+    color: #447ddb;
+    font-size: $fs-icon*1.5;
+}
+
+%text-grey {
+    font-size: $fs-grey;
+    color: $tx-grey;
+    opacity: 0.9;
+}
+
+%desk-arrow{
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    font-size: 1.2em;
+    padding: 1px 4px 1px 3px;
+    border-radius: $br-default*5;
+    color: $tx-white;
+    &:hover{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,8 @@
+main{
+    grid-area: main;
+    order: 1;
+
+    @include ds-xl{
+        overflow-y: auto;
+    }
+}

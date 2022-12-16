@@ -1,0 +1,211 @@
+main {
+    grid-area: main;
+    color: $tx-white;
+    background: black;
+
+    @include ds-xl{
+        overflow-y: auto;
+        background: linear-gradient(180deg, rgba(43,43,43,1) 23%, rgba(18,18,18,1) 48%);
+    }
+    #sectio-lable {
+        padding: $default-padding*2 $default-padding*2;
+    }
+
+    #pop-up{
+        padding: 1px;
+        border: none;
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        img{
+            width: 25px;
+        }
+        i{
+            font-size: 0.9em;
+            text-align: center;
+        }
+    }
+
+    .desk-arrow-l{
+        @extend %desk-arrow;
+    }
+    
+    .desk-arrow-r{
+        @extend %desk-arrow;
+    }
+
+    .banner{
+        border-radius: 10px;
+        button{
+            border: none;
+        }
+        .card-body{
+            button{
+                padding: $default-padding $default-padding*2;
+                border-radius: 30px;
+                color: $tx-grey;
+                background-color: $bg-default-color;
+            }
+        }
+
+        .card-title{
+            font-size: $fs-default*4;
+        }
+
+        .card-text{
+
+            button:nth-child(1){
+                padding: $default-padding*2 $default-padding*4;
+                border-radius: 30px;
+                background-color: #1ed760;
+                color: black;
+            }
+
+            button:nth-child(2){
+                padding: $default-padding*2 $default-padding*4;
+                border-radius: 30px;
+                background-color: black;
+                color: $tx-white;
+                border: 1px solid $tx-grey;
+            }
+        }
+    }
+
+    #opzion{
+        font-size: $fs-icon;
+        list-style: none;
+        text-align: end;
+
+        #dot{
+            position: relative;
+            height: 0px;
+            width: 0px;
+            right: 12px;
+            top: -15px;
+            @extend %dot;
+        }
+    }
+
+    #ultimiascolti {
+        padding: $default-padding*2 $default-padding*2;
+
+        .cont-playlist {
+            padding: $default-padding*2 $default-padding*2;
+            
+            .playlist {
+                border: none;
+                @include ds-xl{
+                    background-color: #2c2c2c;
+                    border-radius: 5px;
+                    justify-content: space-between;
+                    padding-right: $default-padding*2;
+                }
+                * {
+                    padding: 0px;
+                    box-sizing: border-box;
+                }
+
+                &-img {
+                    padding: 0px;
+                    max-width: 80px;
+                }
+
+                div {
+                    width: 100%;
+                    .playlist-title {
+                        padding-left: $default-padding*2;
+                        font-size: $fs-grey;
+                        margin: 0px;
+
+                        overflow: hidden;
+                        padding-left: 5px;
+
+                        @include ds-xl{
+                            font-size: 20px;
+                        }
+                    }
+
+                    
+                    i {
+                        @extend %dot;
+                        font-size: $fs-default*1.25;
+                        @include ds-xl{
+                            font-size: $fs-default*2.5;
+                        }
+
+                    }
+                }
+
+                .info {
+                    visibility: visible;
+                    color: green;
+
+                }
+            }
+        }
+    }
+
+    #extended-playlist {
+        .extended-playlist-cont {
+            padding: $default-padding*0 $default-padding*2 $default-padding*2 $default-padding*2.2;
+            background-color: $bg-default-color;
+
+            .cont-img {
+                padding: $default-padding*2 $default-padding*0 $default-padding*0 $default-padding*2;
+                background: linear-gradient(309deg, rgba(36, 36, 36, 1) 45%, rgba(102, 58, 55, 1) 73%, rgba(144, 66, 62, 1) 97%);
+                border-top-left-radius: $br-default*2;
+
+                @include ds-xl{
+                    padding: 0px;
+                }
+
+                img {
+                    box-shadow: 0px 0px 10px white;
+                    @include ds-xl{
+                        border-radius: 10px;
+                        box-shadow: none;
+                    }
+                }
+            }
+
+            .extended-playlist-cont-txt {
+                padding-top: $default-padding*2 ;
+
+                @include ds-xl {
+                    font-size: $fs-default;
+                }
+
+                p:first-child {
+                    @extend %text-grey;
+                }
+
+                .extended-playlist-cont-desc{
+                    @extend %text-grey;
+                }
+            }
+
+            &-icon {
+                @extend %text-grey;
+
+                padding-top: $default-padding*2;
+
+                i {
+                    font-size: $fs-icon;
+                }
+
+                .bottone {
+                    font-size: $fs-default;
+                    background: $bg-color-black;
+                    border: none;
+                    border-radius: $br-percent;
+
+                    i {
+                        color: $tx-white;
+                    }
+                }
+            }
+        }
+    }
+}
