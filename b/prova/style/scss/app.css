@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"); /*Space*/
+/*Text color*/
+/*Bg color*/
+/*Border*/
+/*Font*/
+/*bottone play*/
+/*Color*/
+header .playlist-container-option div .box-icona-verde, header .playlist-container-option div .box-icona-grigia, header .playlist-container-option div .box-icona {
+  padding: 3.34px 3px 6px 8px;
+  border-radius: 2px;
+}
+
+main #frecce .desk-arrow {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2em;
+  padding: 1px 4px 1px 3px;
+  border-radius: 25px;
+  color: white;
+}
+main #frecce .desk-arrow:hover {
+  opacity: 1;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4d4d4d;
+}
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+
+header {
+  grid-area: header;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+  z-index: 1;
+  order: 3;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+@media (min-width: 1200px) {
+  header {
+    height: 90vh;
+    font-size: 16px;
+    opacity: 1;
+  }
+}
+@media (min-width: 1200px) {
+  header nav {
+    height: 20vh;
+  }
+}
+header nav .menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  list-style: none;
+  line-height: 40px;
+  padding: 0px;
+}
+@media (min-width: 1200px) {
+  header nav .menu {
+    display: block;
+    text-align: start;
+  }
+}
+header nav .menu .bottone {
+  background: none;
+  border: none;
+  color: white;
+  padding: 0px;
+}
+header nav .menu-element {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1200px) {
+  header nav .menu-element {
+    display: block;
+  }
+}
+header nav .menu-element i {
+  font-size: 22.4px;
+}
+@media (min-width: 1200px) {
+  header nav .menu-element i {
+    font-size: 19.2px;
+  }
+}
+header nav .menu-element:nth-child(3) {
+  padding-left: 50px;
+}
+@media (min-width: 1200px) {
+  header nav .menu-element:nth-child(3) {
+    padding: 0px;
+  }
+}
+header nav .menu-element:nth-child(4) {
+  padding-left: 30px;
+}
+@media (min-width: 1200px) {
+  header nav .menu-element:nth-child(4) {
+    padding: 0px;
+  }
+}
+header .playlist-container-option {
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+  line-height: 40px;
+  height: 20vh;
+}
+header .playlist-container-option div {
+  padding: 5px 0px;
+}
+header .playlist-container-option div span:nth-child(2) {
+  padding-left: 10px;
+}
+header .playlist-container-option div .box-icona {
+  background: linear-gradient(-45deg, rgb(117, 141, 134) 6%, rgb(90, 83, 161) 41%, rgb(62, 33, 167) 96%);
+}
+header .playlist-container-option div .box-icona-grigia {
+  background-color: #b2b2b2;
+  color: #2c2c2c;
+}
+header .playlist-container-option div .box-icona-verde {
+  background-color: #004537;
+  color: #149643;
+}
+header .playlist-container .playlist-container-list {
+  padding-top: 15px;
+  height: 50vh;
+  overflow: auto;
+}
+
+main *:focus {
+  outline: none;
+}
+main #user-cont #user {
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  color: #696e68;
+}
+main #user-cont #user img {
+  width: 40px;
+}
+
+main {
+  grid-area: main;
+  order: 1;
+}
+@media (min-width: 1200px) {
+  main {
+    overflow-y: auto;
+  }
+}
+
+aside {
+  grid-area: aside;
+  color: white;
+  height: 10vh;
+  order: 2;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 95px;
+  z-index: 1;
+  padding: 0px 5px;
+}
+@media (min-width: 1200px) {
+  aside {
+    position: unset;
+    padding: 0px;
+  }
+}
+aside .player {
+  background-color: #121212;
+  border-radius: 10px;
+  width: 100%;
+  padding: 6px 10px;
+}
+@media (min-width: 1200px) {
+  aside .player {
+    border-radius: 0px;
+  }
+}
+aside .player div:first-child {
+  gap: 10px;
+}
+@media (min-width: 1200px) {
+  aside .player div:first-child {
+    gap: 0px;
+  }
+}
+aside .player #txt span {
+  padding-left: 0px;
+  max-width: 200px;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+@media (min-width: 1200px) {
+  aside .player #txt span {
+    padding-left: 20px;
+  }
+}
+aside .player div div:nth-child(1) {
+  order: 1;
+}
+aside .player div div:nth-child(2) {
+  order: 3;
+}
+aside .player div div:nth-child(3) {
+  order: 4;
+}
+aside .player div div:nth-child(4) {
+  order: 2;
+}
+@media (min-width: 1200px) {
+  aside .player div div:nth-child(1) {
+    width: 14%;
+    order: 1;
+  }
+  aside .player div div:nth-child(2) {
+    width: 6%;
+    order: 2;
+  }
+  aside .player div div:nth-child(3) {
+    width: 60%;
+    order: 3;
+  }
+  aside .player div div:nth-child(4) {
+    width: 20%;
+    order: 4;
+  }
+}
+aside .player-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+@media (min-width: 1200px) {
+  aside .player-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 0%;
+  }
+}
+aside .player p {
+  font-size: 14px;
+  padding-left: 5px;
+  color: #696e68;
+}
+@media (min-width: 1200px) {
+  aside .player p {
+    padding: 0px;
+  }
+}
+aside .player-title {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@media (min-width: 1200px) {
+  aside .player-title {
+    overflow: unset;
+    white-space: unset;
+    flex-direction: column;
+    align-items: unset;
+    font-size: 14px;
+  }
+}
+aside .player-controller div:nth-child(1) i {
+  font-size: 24px;
+}
+@media (min-width: 1200px) {
+  aside .player-controller div:nth-child(1) i {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  aside .player-controller div:nth-child(1) i:nth-child(3) {
+    height: 40px;
+    font-size: 40px;
+    position: relative;
+    top: -8px;
+  }
+}
+@media (min-width: 1200px) {
+  aside .player div:nth-child(4) {
+    gap: 15px;
+  }
+  aside .player div:nth-child(4) i {
+    font-size: 20px;
+  }
+}
+
+footer {
+  grid-area: footer;
+  background-color: #000000;
+  height: 90vh;
+  padding: 20px 10px;
+  color: white;
+  font-size: 20px;
+}
+footer .friend * {
+  margin: 0px;
+}
+footer .friend h5 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+}
+footer .friend h5 span {
+  font-weight: 400;
+}
+footer .friend .card {
+  background: none;
+  border: none;
+}
+footer .friend .card-body {
+  padding-right: 0px;
+}
+footer .friend .card-text {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+}
+body a {
+  color: unset;
+  text-decoration: none;
+}
+@media (min-width: 1200px) {
+  body {
+    display: grid;
+    grid-template-columns: 20% auto auto auto 22%;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: "header main main main footer " "header main main main footer " "header main main main footer " "header main main main footer " "aside aside aside aside aside ";
+  }
+}/*# sourceMappingURL=app.css.map */

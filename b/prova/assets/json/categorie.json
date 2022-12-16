@@ -1,7 +1,7 @@
 [
     {
         "img": "https://wrapped-images.spotifycdn.com/image/browse-card/wrapped-temp-card.jpg",
-        "name": "Wrapped 2022",
+        "name": "2022 Hits",
         "color": "rgb(132, 0, 231)"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "img": "https://i.scdn.co/image/ab67fb8200005cafdfdaac1cf9574a196ca25196",
-        "name": "Dance/Elettronica",
+        "name": "Elettronica",
         "color": "rgb(216, 64, 0)"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
         "img": "https://concerts.spotifycdn.com/images/live-events_category-image.jpg",
-        "name": "Eventi dal vivo",
+        "name": "Live Events",
         "color": "rgb(115, 88, 255)"
     },
     {
@@ -131,7 +131,7 @@
     },
     {
         "img": "https://t.scdn.co/images/61ad00d872894117a084cb5fbd1e7f12",
-        "name": "Sanremo 2022",
+        "name": "Sanremo '22",
         "color": "rgb(29, 49, 100)"
     },
     {
