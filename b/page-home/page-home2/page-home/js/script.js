@@ -29,7 +29,7 @@ fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q=queen')
   </div>
 </div>`    
 
-for ( let i=0 ; i<=4 ; i++ ){
+for ( let i=6 ; i<=10 ; i++ ){
     let disco = data.data[i].album.title;
   
     console.log(disco)
@@ -56,19 +56,21 @@ div.innerHTML=`<div class="container rounded-3 mb-3 extended-playlist-cont">
         <i class="bi bi-three-dots-vertical col-3"></i>
     </div>
     <div class="col-6 d-flex justify-content-end align-items-center">
-        <p class="col-6 m-0"></p>
+        <p class="col-6 m-0">10 brani</p>
         </p>
         <button type="button" class="bottone"><i class="bi bi-play-fill"></i></button>
     </div>
 </div>
 </div>`
 container2.append(div);}
+console.log(json)
 
 
 
-// in teoria dovrebbe ipoteticamente funziare ma js ce l'ha con noi ...sistemiano?? e ricordiamoci di togliere il commento all'html
-for(var j=5 ;j<11; j ++){
+
+for(var j=0 ;j<6; j ++){
 console.log(data.data[j].title);
+
         
         let disco2=data.data[j].album.title; 
         let picture2= data.data[j].album.cover_xl;
@@ -82,7 +84,7 @@ console.log(data.data[j].title);
         <div class="d-flex playlist align-items-center">
             <img src="${picture2}" class="img-fluid rounded-start playlist-img" alt="">
             <div class=" d-flex align-items-center">
-                <h5 class="overflow-hidden playlist-title">
+                <h5 class="overflow-hidden playlist-title fs-6">
                     ${disco2}
                 </h5>
             </div>
